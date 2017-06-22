@@ -56,14 +56,12 @@ fs.createReadStream('data/CategoryAttributeMapping.csv')
     fs.createReadStream('data/Categories.csv')
       .pipe(csv())
       .on('data', data => {
-        if (data.level === '2') {
-          const category = data;
-          category.attributeIds = categoryAttributeIds[data.id];
-          category.active = category.active === '1';
-          category.retired = category.retired === '1';
+        data = convertDataProps(data);
 
-          categories[category.id] = category;
-        }
+        const category = data;
+        category.attributeIds = categoryAttributeIds[data.id];
+    
+        categories[category.id] = category;
       }).on('end', () => {
         fs.writeFile('dist/categories.json', JSON.stringify(categories), err => {
           if (err) throw err;
@@ -71,3 +69,20 @@ fs.createReadStream('data/CategoryAttributeMapping.csv')
         })
       });
   });
+
+/**
+ * Converts category data from props of 
+ *  L0 Node ID,L0 Node Name,L1 Node ID,L1 Node Name,L2 Node ID,L2 Node Name
+ * to 
+ * id,name,parent_id,active,retired,path
+ * @param {*} data 
+ */
+function convertDataProps(data) {
+  // As of 6/21/17, only active categories are present in the spreadsheet.
+  return {
+    id: data['L2 Node ID'],
+    active: true,
+    retired: false,
+    path: `${data['L0 Node Name']}|${data['L1 Node Name']}|${data['L2 Node Name']}`
+  }
+}

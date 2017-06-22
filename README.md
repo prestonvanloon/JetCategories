@@ -127,3 +127,8 @@ console.log(JSON.stringify(architecture, null, 2));
 //   ]
 // }
 ```
+
+## Updating the dist files
+
+- Follow the [guide](data/README.md) to update the data.
+- `npm start`

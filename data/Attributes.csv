@@ -1,911 +1,1680 @@
-id,description,display_name,free_text,display,facet_filter,variant,variant_pair
-1,Country of Origin,Country of Origin,FALSE,FALSE,FALSE,FALSE,FALSE
-3,old_Baby Kid Clothing Size,Size,FALSE,FALSE,TRUE,TRUE,FALSE
-4,Material Type,Material,FALSE,TRUE,FALSE,TRUE,FALSE
-5,Import Designation,Import Designation,FALSE,FALSE,FALSE,FALSE,FALSE
-6,Grocery Specialty Old,Specialty,FALSE,FALSE,FALSE,FALSE,FALSE
-8,Product Form,Form,FALSE,TRUE,FALSE,TRUE,FALSE
-9,ESRB Ratings,ESRB Ratings,FALSE,TRUE,FALSE,FALSE,FALSE
-11,Towel Size,Towel Size,FALSE,FALSE,TRUE,TRUE,FALSE
-12,Sheet Type,Sheet Type,FALSE,FALSE,TRUE,TRUE,FALSE
-13,Pillow Size,Pillow Size,FALSE,FALSE,TRUE,TRUE,FALSE
-14,Light Source Type,Light Source,FALSE,FALSE,TRUE,FALSE,FALSE
-15,DÃ©cor Style,Style,FALSE,TRUE,FALSE,FALSE,FALSE
-16,Instrument Size,Instrument Size,FALSE,FALSE,FALSE,TRUE,FALSE
-17,Fixture Finish Type,Finish,FALSE,FALSE,TRUE,TRUE,FALSE
-18,Game Genre,Genre,FALSE,TRUE,FALSE,FALSE,FALSE
-19,Book Format,Format,FALSE,FALSE,FALSE,TRUE,FALSE
-20,Music Format,Format,FALSE,FALSE,TRUE,TRUE,FALSE
-21,Software Format,Format,FALSE,FALSE,TRUE,TRUE,FALSE
-23,Mitt Type,Mitt Type,FALSE,FALSE,TRUE,FALSE,FALSE
-24,Printer Type,Printer Type,FALSE,FALSE,TRUE,FALSE,FALSE
-25,Calculator Type,Calculator Type,FALSE,FALSE,TRUE,FALSE,FALSE
-26,Scanner Type,Scanner Type,FALSE,FALSE,TRUE,FALSE,FALSE
-27,Microwave Type,Microwave Type,FALSE,FALSE,TRUE,FALSE,FALSE
-28,Baby Carrier Type,Carrier Type,FALSE,FALSE,TRUE,TRUE,FALSE
-29,Breast Pump Type,Breast Pump Type,FALSE,FALSE,TRUE,FALSE,FALSE
-30,Language,Language,FALSE,FALSE,FALSE,FALSE,FALSE
-31,Age Range,Age Range,FALSE,TRUE,FALSE,FALSE,FALSE
-32,Age Group,Age Group,FALSE,FALSE,TRUE,FALSE,FALSE
-33,Target Audience,Target Audience,FALSE,FALSE,FALSE,FALSE,FALSE
-34,Gender,Genders,FALSE,FALSE,FALSE,FALSE,FALSE
-35,Battery Type,Battery Type,FALSE,FALSE,TRUE,FALSE,FALSE
-36,Health & Beauty Item Form,Form,FALSE,TRUE,FALSE,FALSE,FALSE
-37,Health & Beauty Specialty,Specialty,FALSE,FALSE,TRUE,FALSE,FALSE
-38,Fill Material,Fill Material,FALSE,FALSE,TRUE,FALSE,FALSE
-39,Media Storage Capacity,Storage Capacity,TRUE,FALSE,FALSE,TRUE,FALSE
-41,Device Compatibility,Device Compatibility,FALSE,FALSE,TRUE,TRUE,FALSE
-44,Power Source,Power Source,FALSE,FALSE,TRUE,FALSE,FALSE
-45,Width,Width,TRUE,FALSE,FALSE,TRUE,FALSE
-46,Weight or Volume,Size,TRUE,FALSE,FALSE,TRUE,FALSE
-47,Film Speed,Film Speed,FALSE,FALSE,TRUE,TRUE,FALSE
-48,Film Color,Film Color,FALSE,FALSE,TRUE,TRUE,FALSE
-49,Furniture Finish Map,Finish,FALSE,FALSE,TRUE,FALSE,FALSE
-50,Size - Free Text,Size,TRUE,TRUE,FALSE,TRUE,FALSE
-51,Mirror Style,Mirror Style,FALSE,FALSE,TRUE,FALSE,FALSE
-52,Drinking Glass Type,Glass Type,FALSE,FALSE,TRUE,FALSE,FALSE
-53,Camera Lens Type,Lens Type,FALSE,FALSE,TRUE,FALSE,FALSE
-54,Optical Zoom,Optical Zoom,TRUE,TRUE,FALSE,TRUE,FALSE
-55,Clock Type,Clock Type,FALSE,TRUE,FALSE,FALSE,FALSE
-56,Mattress Type,Mattress Type,FALSE,FALSE,TRUE,FALSE,FALSE
-57,Knitting Needle Size,Knitting Needle Size,FALSE,FALSE,TRUE,TRUE,FALSE
-58,Crochet Hook Size,Crochet Hook Size,FALSE,FALSE,TRUE,TRUE,FALSE
-59,TV Screen Size,TV Screen Size,FALSE,TRUE,FALSE,TRUE,FALSE
-60,Paper Size,Paper Size,FALSE,FALSE,TRUE,TRUE,FALSE
-61,Fish Type,Fish Type,FALSE,FALSE,TRUE,FALSE,FALSE
-62,Pet Food Form,Pet Food Form,FALSE,FALSE,TRUE,FALSE,FALSE
-63,Baby Stage,Stage,FALSE,FALSE,TRUE,TRUE,FALSE
-64,Formula Type,Formula Type,FALSE,FALSE,TRUE,FALSE,FALSE
-65,Wattage,Wattage,TRUE,TRUE,FALSE,TRUE,FALSE
-66,Home Theater System Channels,Channels,TRUE,FALSE,TRUE,FALSE,FALSE
-67,Watts Per Channel,Watts Per Channel,TRUE,TRUE,FALSE,FALSE,FALSE
-68,Tuner Type,Tuner Type,FALSE,FALSE,TRUE,FALSE,FALSE
-69,Refrigerator Style,Refrigerator Style,FALSE,FALSE,TRUE,FALSE,FALSE
-70,Appliance Capacity,Capacity,TRUE,TRUE,FALSE,FALSE,FALSE
-72,Coverage Unit of Measure,Coverage,TRUE,TRUE,FALSE,FALSE,FALSE
-73,Fan Type,Fan Type,FALSE,FALSE,TRUE,FALSE,FALSE
-74,Range Installation Type,Range Installation Type,FALSE,FALSE,TRUE,FALSE,FALSE
-75,Yarn Fiber,Yarn Fiber,FALSE,FALSE,TRUE,FALSE,FALSE
-76,Item Volume,Volume,TRUE,TRUE,FALSE,FALSE,FALSE
-77,Color-Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-78,Flavor-Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-79,Bra Size,Bra Size,FALSE,TRUE,FALSE,TRUE,FALSE
-80,Shoe Width,Shoe Width,FALSE,TRUE,FALSE,TRUE,FALSE
-81,Old Diaper Size,Diapers Size,FALSE,FALSE,FALSE,FALSE,FALSE
-82,old_Kids Clothing Size,Kids Clothing Size,FALSE,FALSE,FALSE,TRUE,FALSE
-83,Kids Shoe Sizes,Kids Shoe Sizes,FALSE,TRUE,FALSE,TRUE,FALSE
-84,Alpha Women's Regular Size,Women's Regular Size,FALSE,TRUE,FALSE,TRUE,FALSE
-85,old_Men's General Regular Size,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-86,Men's Pant Size,Men's Pant Size,FALSE,TRUE,FALSE,TRUE,FALSE
-87,Men's Dress Shirt Size,Men's Dress Shirt Size,FALSE,TRUE,FALSE,TRUE,FALSE
-88,Product Material,Material,FALSE,FALSE,TRUE,FALSE,FALSE
-89,Pet Life Stage,Life Stage,FALSE,TRUE,FALSE,TRUE,FALSE
-90,Sheet Material,Material,FALSE,FALSE,TRUE,FALSE,FALSE
-91,Bag Style,Bag Style,FALSE,FALSE,TRUE,FALSE,FALSE
-93,Stone,Stone,FALSE,TRUE,FALSE,TRUE,FALSE
-94,Hair Color,Hair Color,TRUE,TRUE,FALSE,TRUE,FALSE
-95,Count Size,Count,TRUE,TRUE,FALSE,TRUE,FALSE
-96,# of Players,# of Players,FALSE,FALSE,TRUE,FALSE,FALSE
-97,Women's Shoe Size,Women's Shoe Size,FALSE,TRUE,FALSE,TRUE,FALSE
-98,Men's Shoe Size,Men's Shoe Size,FALSE,TRUE,FALSE,TRUE,FALSE
-99,Appliance Color Map,Appliance Color,FALSE,FALSE,TRUE,FALSE,FALSE
-100,Furniture Material,Material,FALSE,TRUE,FALSE,FALSE,FALSE
-101,Bird Type,Bird Type,FALSE,FALSE,TRUE,FALSE,FALSE
-102,Small Animal Type,Small Animal Type,FALSE,FALSE,TRUE,FALSE,FALSE
-103,Reptile type,Reptile Type,FALSE,FALSE,TRUE,FALSE,FALSE
-104,Pet Food Special Diet,Special Diet,FALSE,FALSE,FALSE,FALSE,FALSE
-105,Special Sizes,Special Sizes,FALSE,FALSE,TRUE,FALSE,FALSE
-106,Kids Shoe Width,Kids Shoe Width,FALSE,TRUE,FALSE,TRUE,FALSE
-107,Video Format,Video Format,FALSE,FALSE,TRUE,TRUE,FALSE
-108,MPAA Rating,MPAA Rating,FALSE,FALSE,TRUE,FALSE,FALSE
-109,Subtitle Language,Subtitle Language,FALSE,TRUE,TRUE,TRUE,FALSE
-110,Audio Encoding Language,Audio Encoding Language,FALSE,FALSE,TRUE,FALSE,FALSE
-111,Adult Product,Adult Product,FALSE,FALSE,FALSE,FALSE,FALSE
-112,Movie & TV Genre,Genre,FALSE,TRUE,FALSE,FALSE,FALSE
-113,Suit or Sport Coat Size,Suit Size,FALSE,TRUE,FALSE,TRUE,FALSE
-114,Generic Size- free text with units,Size,TRUE,FALSE,FALSE,FALSE,FALSE
-115,Dog Size,Dog Size,TRUE,FALSE,FALSE,FALSE,FALSE
-116,"Generic Sizes (S,M, L, etc)",Size,FALSE,TRUE,FALSE,TRUE,FALSE
-117,Flavor,Flavor,TRUE,TRUE,FALSE,TRUE,FALSE
-118,Fragrance,Fragrance,TRUE,TRUE,FALSE,TRUE,FALSE
-119,Color,Color,TRUE,TRUE,FALSE,TRUE,FALSE
-120,Nursery Furniture Type,Type,FALSE,FALSE,TRUE,FALSE,FALSE
-121,Finish,Finish,TRUE,TRUE,FALSE,TRUE,FALSE
-122,Appliance Color,Appliance Color,TRUE,TRUE,FALSE,TRUE,FALSE
-123,Length,Length,TRUE,TRUE,FALSE,TRUE,FALSE
-124,Height,Height,TRUE,TRUE,FALSE,TRUE,FALSE
-125,Diaper Size,Diaper Size,TRUE,TRUE,FALSE,TRUE,FALSE
-126,BTU,BTUs,TRUE,TRUE,FALSE,FALSE,FALSE
-127,Threadcount,Threadcount,TRUE,TRUE,FALSE,FALSE,FALSE
-128,Megapixels,Megapixels,TRUE,TRUE,FALSE,TRUE,FALSE
-129,Furniture Finish,Furniture Finish,TRUE,TRUE,FALSE,TRUE,FALSE
-130,Monitor Type,Monitor Type,FALSE,FALSE,TRUE,FALSE,FALSE
-131,Service Plan,Service Plan,TRUE,FALSE,TRUE,FALSE,FALSE
-132,Warranty Plan,Warranty Plan,TRUE,TRUE,FALSE,FALSE,FALSE
-133,Alpha Women's General Maternity Size,Women's General Maternity Size,FALSE,TRUE,FALSE,TRUE,FALSE
-134,GPS Feature,GPS Feature,TRUE,TRUE,FALSE,FALSE,FALSE
-135,Connectivity Type,Connectivity Type,FALSE,FALSE,TRUE,FALSE,FALSE
-136,Hand Tool Type,Hand Tool Type,FALSE,FALSE,FALSE,FALSE,FALSE
-137,Power Tool Type,Power Tool Type,FALSE,FALSE,FALSE,FALSE,FALSE
-138,Hardware Finish Type,Hardware Finish Type,FALSE,TRUE,TRUE,TRUE,FALSE
-139,Door Entry Side,Door Entry Side,FALSE,TRUE,TRUE,TRUE,FALSE
-140,Ring Size,Ring Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141,Platform,Gaming Platform,FALSE,TRUE,FALSE,TRUE,FALSE
-142,Bike Wheel Size,Bike Wheel Size,FALSE,TRUE,FALSE,TRUE,FALSE
-143,Lens Color,Lens Color,TRUE,TRUE,FALSE,TRUE,FALSE
-144,Airsoft Gun & Rifle Velocity,Airsoft Gun & Rifle Velocity,TRUE,TRUE,FALSE,FALSE,FALSE
-145,Baseball Type,Baseball Type,FALSE,FALSE,TRUE,FALSE,FALSE
-146,Bat Size,Bat Size,FALSE,TRUE,FALSE,TRUE,FALSE
-147,Baseball Glove Size,Glove Size,FALSE,TRUE,FALSE,TRUE,FALSE
-148,Baseball Throwing Hand,Throwing Hand,FALSE,TRUE,TRUE,TRUE,FALSE
-149,Type of Protective Gear,Type of Protective Gear,FALSE,FALSE,TRUE,FALSE,FALSE
-150,Softball Type,Softball Type,FALSE,FALSE,TRUE,FALSE,FALSE
-151,Team,Team,TRUE,TRUE,FALSE,TRUE,FALSE
-152,Dimensional Size- built from Length X Width X Height,Size,TRUE,TRUE,FALSE,FALSE,FALSE
-153,Diameter,Diameter,TRUE,TRUE,FALSE,TRUE,FALSE
-154,Bowling Ball Size,Bowling Ball Size,FALSE,TRUE,FALSE,TRUE,FALSE
-155,Football Size,Football Size,FALSE,FALSE,TRUE,FALSE,FALSE
-156,Golf Club Type,Golf Club Type,FALSE,FALSE,FALSE,FALSE,FALSE
-157,Hand Orientation,Hand Orientation,FALSE,FALSE,FALSE,TRUE,FALSE
-158,Tennis Raquet Grip Size,Tennis Raquet Grip Size,FALSE,TRUE,FALSE,TRUE,FALSE
-159,Tennis Raquet Head Size,Tennis Raquet Head Size,FALSE,TRUE,FALSE,TRUE,FALSE
-160,Rug Size,Rug Size,FALSE,FALSE,TRUE,FALSE,FALSE
-161,Rug Material,Rug Material,FALSE,FALSE,TRUE,FALSE,FALSE
-162,Sink Style,Sink Style,FALSE,FALSE,TRUE,FALSE,FALSE
-163,Cookware Material,Cookware Material,FALSE,FALSE,TRUE,FALSE,FALSE
-164,Contract Type,Contract Type,FALSE,FALSE,TRUE,FALSE,FALSE
-165,Cell Phone Carrier,Carrier,FALSE,TRUE,TRUE,TRUE,FALSE
-166,Phone Operating System,Phone Operating System,FALSE,FALSE,TRUE,FALSE,FALSE
-167,TV Refresh Rate,Refresh Rate,FALSE,TRUE,FALSE,TRUE,FALSE
-169,Decor Material,Material,FALSE,FALSE,TRUE,FALSE,FALSE
-171,Make,Make,TRUE,TRUE,FALSE,FALSE,FALSE
-172,Model,Model,TRUE,TRUE,FALSE,TRUE,FALSE
-173,"Year - Display, Free Text",Year,TRUE,TRUE,FALSE,FALSE,FALSE
-174,Camera Filter Diameter,Camera Filter Diameter,TRUE,TRUE,FALSE,FALSE,FALSE
-175,Connectivity Type,Connectivity Type,FALSE,FALSE,TRUE,FALSE,FALSE
-176,Wiring Type,Wiring Type,FALSE,FALSE,TRUE,FALSE,FALSE
-177,Sleeping Bag Temperature Rating,Sleeping Bag Temperature Rating,TRUE,TRUE,FALSE,FALSE,FALSE
-178,Brightness,Brightness,TRUE,TRUE,FALSE,FALSE,FALSE
-179,Tent Capacity,Tent Capacity,FALSE,FALSE,TRUE,FALSE,FALSE
-180,Projector Display Technology,Projector Display Technology,FALSE,FALSE,TRUE,FALSE,FALSE
-181,Wireless Standard,Wireless Standard,FALSE,FALSE,TRUE,FALSE,FALSE
-182,Transmission Speed,Transmission Speed,TRUE,TRUE,FALSE,FALSE,FALSE
-183,Processor Speed,Processor Speed,TRUE,TRUE,FALSE,FALSE,FALSE
-186,Product Form-Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-188,Fragrance-Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-190,Size-Stage,,FALSE,FALSE,FALSE,TRUE,TRUE
-191,Color-Baby Stage,,FALSE,FALSE,FALSE,TRUE,TRUE
-192,Color-Stage,,FALSE,FALSE,FALSE,TRUE,TRUE
-197,Purifier Type,Purifier Type,TRUE,FALSE,TRUE,FALSE,FALSE
-198,Metal-Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-209,Lens Color-Color,,FALSE,FALSE,FALSE,TRUE,TRUE
-219,Hard Drive Size (OLD),Hard Drive Size,TRUE,TRUE,FALSE,TRUE,FALSE
-220,Hard Drive Size-Screen Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-221,Color-Storage Capacity,,FALSE,FALSE,FALSE,TRUE,TRUE
-225,# of Pieces,# of Pieces,TRUE,TRUE,FALSE,TRUE,FALSE
-227,Furniture Finish-Size,,FALSE,FALSE,FALSE,TRUE,FALSE
-229,Dog Size-Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-230,Flavor-Dog Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-232,Size-Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-234,Paper Size-Color,,FALSE,FALSE,FALSE,TRUE,TRUE
-238,Bed Size-Color,,FALSE,FALSE,FALSE,TRUE,TRUE
-241,Pillow Size-Color,,FALSE,FALSE,FALSE,TRUE,TRUE
-242,Towel Size-Color,,FALSE,FALSE,FALSE,TRUE,TRUE
-245,Furniture Finish-Mattress Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-247,Color-Rug Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-248,Frame Color,,FALSE,TRUE,FALSE,TRUE,TRUE
-250,Color-Photo Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-251,Frame Size,,FALSE,TRUE,FALSE,TRUE,TRUE
-252,Window Size,,FALSE,TRUE,FALSE,TRUE,TRUE
-253,Color-Window Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-254,Color-Bed Size,,FALSE,FALSE,FALSE,TRUE,TRUE
-264,Numeric Women's Petite Size,Women's Petite Size,FALSE,TRUE,FALSE,TRUE,FALSE
-265,Team-Size,NULL,FALSE,FALSE,FALSE,TRUE,TRUE
-266,Dishwasher Installation Type,Installation Type,FALSE,TRUE,TRUE,FALSE,FALSE
-267,Wine Cellar Capacity,Wine Cellar Capacity,TRUE,TRUE,FALSE,TRUE,FALSE
-268,Activity,Activity,FALSE,FALSE,FALSE,TRUE,FALSE
-269,Art Style,Art Style,FALSE,FALSE,TRUE,FALSE,FALSE
-270,Award Winners,Award Winners,FALSE,FALSE,FALSE,FALSE,FALSE
-271,Watch Band Material,Watch Band Material,FALSE,TRUE,FALSE,FALSE,FALSE
-273,Kids' Shoe Size - length only,Kids' Shoe Size,FALSE,FALSE,TRUE,FALSE,FALSE
-274,old_Men Size,Size,FALSE,TRUE,TRUE,TRUE,FALSE
-275,old_Men Size,Men Size,FALSE,FALSE,TRUE,FALSE,FALSE
-276,old_Kid Size,Kid Size,FALSE,TRUE,TRUE,TRUE,FALSE
-279,Bike Capacity,Bike Capacity,FALSE,FALSE,TRUE,FALSE,FALSE
-282,Certifications,Certifications,FALSE,FALSE,TRUE,FALSE,FALSE
-283,Connector Type,Connector Type,FALSE,FALSE,TRUE,FALSE,FALSE
-285,Designer,Designer,TRUE,FALSE,TRUE,FALSE,FALSE
-286,Dietary Needs,Dietary Needs,FALSE,FALSE,TRUE,FALSE,FALSE
-287,Grade Level,Grade Level,FALSE,FALSE,TRUE,FALSE,FALSE
-288,Grit Size,Grit Size,FALSE,TRUE,TRUE,TRUE,FALSE
-289,OLD Hair Care Attribute,Hair Care Attributes,FALSE,FALSE,FALSE,FALSE,FALSE
-290,Hubcap Size,Hubcap Size,FALSE,FALSE,TRUE,FALSE,FALSE
-291,Inseam,Inseam,FALSE,FALSE,TRUE,FALSE,FALSE
-292,League,League,FALSE,FALSE,TRUE,FALSE,FALSE
-293,Lens Mount Compatibility,Lens Mount Compatibility,FALSE,FALSE,TRUE,FALSE,FALSE
-295,Men's Regular Waist Size,Men's Regular Waist Size,FALSE,FALSE,TRUE,FALSE,FALSE
-296,TV Model Year Facet Filter,TV Model Year,FALSE,FALSE,TRUE,FALSE,FALSE
-297,Needle Type,Needle Type,FALSE,FALSE,TRUE,FALSE,FALSE
-298,Occasion,Occasion,FALSE,FALSE,FALSE,FALSE,FALSE
-299,OEM/Compatible,OEM/Compatible,FALSE,FALSE,TRUE,FALSE,FALSE
-300,Pattern,Pattern,FALSE,FALSE,TRUE,TRUE,FALSE
-301,Platform Support,Platform Support,FALSE,FALSE,TRUE,FALSE,FALSE
-303,RAM Technology,RAM Technology,FALSE,FALSE,TRUE,FALSE,FALSE
-306,Rim Size,Rim Size,FALSE,FALSE,TRUE,FALSE,FALSE
-307,Stroller Seating Capacity,Seating Capacity,FALSE,FALSE,TRUE,FALSE,FALSE
-308,Shoe Style,Shoe Style,FALSE,FALSE,TRUE,FALSE,FALSE
-310,Skin Type,Skin Type,FALSE,FALSE,FALSE,FALSE,FALSE
-311,Theme,Theme,FALSE,FALSE,TRUE,FALSE,FALSE
-312,US States & Regions,US States & Regions,FALSE,FALSE,TRUE,FALSE,FALSE
-313,Vacuum Cleaner Features,Vacuum Cleaner Features,FALSE,FALSE,TRUE,FALSE,FALSE
-314,Vehicle Type,Vehicle Type,FALSE,FALSE,TRUE,FALSE,FALSE
-317,"Year - Facet Filter, Value",Year,FALSE,FALSE,TRUE,FALSE,FALSE
-318,Depth,Depth,TRUE,TRUE,FALSE,FALSE,FALSE
-35183291210167,Toaster Size,Size,FALSE,TRUE,TRUE,TRUE,FALSE
-43984840312887,tension level,Tension Supported,TRUE,TRUE,FALSE,TRUE,FALSE
-43984841697296,maximum size,Maximum Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984848490626,vehicle speaker size,Vehicle Speaker Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984858380839,item shape,Item Shape,TRUE,TRUE,FALSE,TRUE,FALSE
-43984859044444,magnification strength,Magnification Strength,TRUE,TRUE,FALSE,TRUE,FALSE
-43984859053743,platform for display,Display Platform,TRUE,TRUE,FALSE,TRUE,FALSE
-43984867739000,golf club loft,Loft,TRUE,TRUE,FALSE,TRUE,FALSE
-43984868016650,configuration,Configuration,TRUE,TRUE,FALSE,TRUE,FALSE
-43984869124004,maximum size,Maximum Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984873900168,platform for display,Display Platform,TRUE,TRUE,FALSE,TRUE,FALSE
-43984884939408,magnification strength,Magnification Strength,TRUE,TRUE,FALSE,TRUE,FALSE
-43984885052616,speakers maximum output power,Speaker Maximum Output Power,TRUE,TRUE,FALSE,TRUE,FALSE
-43984885064791,item shape,Item Shape,TRUE,TRUE,FALSE,TRUE,FALSE
-43984885068223,vehicle speaker size,Vehicle Speaker Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984887979890,lens width,Lens Width,TRUE,TRUE,FALSE,TRUE,FALSE
-43984887982826,golf club loft,Loft,TRUE,TRUE,FALSE,TRUE,FALSE
-43984887992677,speakers maximum output power,Speaker Maximum Output Power,TRUE,TRUE,FALSE,TRUE,FALSE
-43984902979795,tension level,Tension Supported,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903758222,amperage,Amperage,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903761407,number of items,Number of Items,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903763619,size per pearl,Pearl Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903765725,speaker system class,Speaker System Class,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903767658,grip size,Grip Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903769876,action,Action,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903771858,service plan term,Service Plan Term,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903773781,edition,Edition,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903777491,total diamond weight,Total Diamond Weight,TRUE,TRUE,FALSE,TRUE,FALSE
-43984903783238,metal type,Metal Type,TRUE,TRUE,FALSE,TRUE,FALSE
-43984913085649,lens width,Lens Width,TRUE,TRUE,FALSE,TRUE,FALSE
-43984913129161,configuration,Configuration,TRUE,TRUE,FALSE,TRUE,FALSE
-43984917669689,curvature,Curvature,TRUE,TRUE,FALSE,TRUE,FALSE
-43984917672495,Amplifier Output Power,Power Output,TRUE,TRUE,FALSE,TRUE,FALSE
-43984917674438,preamplifier output channel quantity,Preamplifier Output Channel Quantity,TRUE,TRUE,FALSE,TRUE,FALSE
-43984917676278,age gender category,Age/Gender,TRUE,FALSE,FALSE,TRUE,FALSE
-43984917678067,service plan covered value,Service Plan Covered Value,TRUE,TRUE,FALSE,TRUE,FALSE
-43984917679839,golf club flex,Flex,TRUE,TRUE,FALSE,TRUE,FALSE
-43984917681513,feet type,Feet Type,TRUE,TRUE,FALSE,TRUE,FALSE
-43984917684370,inferred variation dimension 1,Options,TRUE,TRUE,FALSE,TRUE,FALSE
-43984917686825,edge style,Edge Style,TRUE,TRUE,FALSE,TRUE,FALSE
-43984917690368,metal stamp,Metal Stamp,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925840826,metal type,Metal Type,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925843994,size per pearl,Pearl Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925846021,number of items,Number of Items,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925848002,grip size,Grip Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925850214,service plan term,Service Plan Term,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925854334,speaker system class,Speaker System Class,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925860870,action,Action,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925865804,total diamond weight,Total Diamond Weight,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925871460,amperage,Amperage,TRUE,TRUE,FALSE,TRUE,FALSE
-43984925878992,edition,Edition,TRUE,TRUE,FALSE,TRUE,FALSE
-43984929292567,shaft material type,Shaft Material,TRUE,TRUE,FALSE,TRUE,FALSE
-43984929294914,leg style,Leg Style,TRUE,TRUE,FALSE,TRUE,FALSE
-43984929296882,initial character,Initial,TRUE,TRUE,FALSE,TRUE,FALSE
-43984929298231,voice coil description,Voice Coil,TRUE,TRUE,FALSE,TRUE,FALSE
-43984929300218,item thickness string,Item Thickness,TRUE,TRUE,FALSE,TRUE,FALSE
-43984929302312,thread size,Thread Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937647477,preamplifier output channel quantity,Preamplifier Output Channel Quantity,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937652974,curvature,Curvature,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937655137,age gender category,Age/Gender,TRUE,FALSE,FALSE,TRUE,FALSE
-43984937656742,golf club flex,Flex,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937658307,maximum output power,Power Output,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937659989,inferred variation dimension 1,Options,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937661719,service plan covered value,Service Plan Covered Value,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937663284,edge style,Edge Style,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937664824,feet type,Feet Type,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937666365,metal stamp,Metal Stamp,TRUE,TRUE,FALSE,TRUE,FALSE
-43984937939148,fabric type,Fabric Type,TRUE,TRUE,FALSE,TRUE,FALSE
-43984949465245,shaft material type,Shaft Material,TRUE,TRUE,FALSE,TRUE,FALSE
-43984949468419,leg style,Leg Style,TRUE,TRUE,FALSE,TRUE,FALSE
-43984949470148,thread size,Thread Size,TRUE,TRUE,FALSE,TRUE,FALSE
-43984949471768,initial character,Initial,TRUE,TRUE,FALSE,TRUE,FALSE
-43984949473400,voice coil description,Voice Coil,TRUE,TRUE,FALSE,TRUE,FALSE
-43984949475136,item thickness string,Item Thickness,TRUE,TRUE,FALSE,TRUE,FALSE
-43984949477192,fabric type,Fabric Type,TRUE,TRUE,FALSE,TRUE,FALSE
-54183764776870,Non-Standard Clothing Size,Size,TRUE,TRUE,FALSE,TRUE,FALSE
-56268057122802,Shoe Closure Type,Closure Type,FALSE,FALSE,TRUE,FALSE,FALSE
-56275037185029,Girls Clothing Size,Girls Clothing Size,TRUE,FALSE,TRUE,FALSE,FALSE
-56925930313559,Router Connectivity Type,Router Connectivity Type,FALSE,FALSE,TRUE,FALSE,FALSE
-56925949481170,Router Connectivity Type,Router Connectivity Type,FALSE,FALSE,TRUE,FALSE,FALSE
-56925961767467,Router Connectivity Type,Router Connectivity Type,FALSE,FALSE,TRUE,FALSE,FALSE
-56933471675756,Material Attributes,Material Attributes,FALSE,FALSE,TRUE,FALSE,FALSE
-56951369904102,Charger Compatibility,Charger Compatibility,FALSE,FALSE,TRUE,FALSE,FALSE
-70768085069180,Numeric European Shoe Sizes,European Shoe Size,FALSE,TRUE,FALSE,TRUE,FALSE
-124309014198622,Cell Phone Internal Storage Capacity,Internal Storage Capacity,TRUE,TRUE,FALSE,FALSE,FALSE
-124340313566418,Battery Capacity,Battery Capacity,TRUE,TRUE,FALSE,FALSE,FALSE
-124340313819098,Compatible Game Consoles,Compatible Game Consoles,FALSE,FALSE,TRUE,FALSE,FALSE
-124340314016929,Crossover Channel Qty,Crossover Channel Qty,FALSE,TRUE,FALSE,FALSE,FALSE
-124340314244049,Audio System Designed For,Audio System Designed For,FALSE,FALSE,TRUE,FALSE,FALSE
-124340314460257,Optical Drive Type,Optical Drive Type,FALSE,TRUE,FALSE,FALSE,FALSE
-124340314681431,Lens Focal Length,Lens Focal Length,FALSE,FALSE,TRUE,FALSE,FALSE
-124340314906323,Graphics Processor,Graphics Processor,FALSE,TRUE,FALSE,FALSE,FALSE
-124340315093582,Appliance Max Power Consumption,Appliance Max Power Consumption,TRUE,TRUE,FALSE,FALSE,FALSE
-124340315292575,Printing Speed B/W,Printing Speed B/W,TRUE,TRUE,FALSE,FALSE,FALSE
-124340315484434,Printing Speed Color,Printing Speed Color,TRUE,TRUE,FALSE,FALSE,FALSE
-124340315682897,Printing Resolution B&W,Printing Resolution B&W,FALSE,TRUE,FALSE,FALSE,FALSE
-124340315874017,Printing Resolution Color,Printing Resolution Color,FALSE,TRUE,FALSE,FALSE,FALSE
-124340316203882,Video Input Max Resolution,Video Input Max Resolution,FALSE,TRUE,FALSE,FALSE,FALSE
-124340316463296,Number of Cores,Number of Cores,FALSE,FALSE,TRUE,FALSE,FALSE
-124340316662193,Output Channel Qty,Output Channel Qty,FALSE,FALSE,TRUE,FALSE,FALSE
-124340316930217,Power Output Connector Type,Power Output Connector Type,FALSE,TRUE,FALSE,FALSE,FALSE
-124340317134637,Amplifier Output Power,Amplifier Output Power,TRUE,TRUE,FALSE,FALSE,FALSE
-124340317334475,Printing Output Type,Printing Output Type,FALSE,FALSE,TRUE,FALSE,FALSE
-124340317522545,Battery Run Time,Battery Run Time,TRUE,TRUE,FALSE,FALSE,FALSE
-124340317708185,Number of Channels,Number of Channels,FALSE,TRUE,FALSE,FALSE,FALSE
-124340317907249,Operating System/ Version,Operating System/ Version,FALSE,TRUE,FALSE,TRUE,FALSE
-124340318107986,Computer Processor Type,Computer Processor Type,FALSE,FALSE,TRUE,FALSE,FALSE
-124340318326280,EPEAT Level,EPEAT Level,FALSE,TRUE,FALSE,FALSE,FALSE
-125331343892421,Audio System Max Output Power,Audio System Max Output Power,TRUE,TRUE,FALSE,FALSE,FALSE
-137888611574705,Alpha Women's General Size,Women's General Size,FALSE,TRUE,FALSE,TRUE,FALSE
-137888611790298,Alpha Women's General Petite Size,Women's General Petite Size,FALSE,TRUE,FALSE,TRUE,FALSE
-137888612003538,Alpha Women's General Plus Size,Women's General Plus Size,FALSE,TRUE,FALSE,TRUE,FALSE
-137888613039291,Numeric Women's Petite Waist Size,Women's Petite Waist Size,FALSE,TRUE,FALSE,TRUE,FALSE
-137888613431097,Alpha Women's General Tall Size,Women's General Tall Size,FALSE,TRUE,FALSE,TRUE,FALSE
-138082809784266,Numeric Big & Tall Suit Size,Big & Tall Suit Size,FALSE,FALSE,TRUE,FALSE,FALSE
-141512836287863,Alpha Baby Generic Sizes,Baby Sizes,FALSE,TRUE,FALSE,TRUE,FALSE
-141512836605137,Alpha Big Boy Generic Size,Big Boy Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141512836812643,Numeric Big Boy Size,Big Boy Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141512837013205,Boys Slim Size,Boys Slim Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141512837233328,Boys Husky Size,Boys Husky Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141512837420648,Alpha Little Girl Generic Size,Little Girl Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141512837824708,Numeric Little Girl Size,Little Girl Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141512838032805,Alpha Big Girl Generic Size,Big Girl Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141512838225188,Numeric Big Girl Size,Big Girl Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141512838456741,Girls Slim Size,Girls Slim Size,FALSE,TRUE,FALSE,TRUE,FALSE
-141512838712104,Girls Plus Size,Girls Plus Size,FALSE,TRUE,FALSE,TRUE,FALSE
-142193437641974,Numeric Boys Slim Size,Boys Slim Size,FALSE,FALSE,TRUE,FALSE,FALSE
-142193437837481,Numeric Boys Husky Size,Boys Husky Size,FALSE,FALSE,TRUE,FALSE,FALSE
-142193438049251,Little Girl Generic Size,Little Girl Generic Size,FALSE,FALSE,TRUE,FALSE,FALSE
-142193438454779,Big Girl Generic Size,Big Girl Generic Size,FALSE,FALSE,TRUE,FALSE,FALSE
-142193438638289,Numeric Big Girl Size,Big Girl Size,FALSE,FALSE,TRUE,FALSE,FALSE
-142193439332293,Numeric Girls Slim Size,Girls Slim Size,FALSE,FALSE,TRUE,FALSE,FALSE
-142193439524389,Numeric Girls Plus Size,Girls Plus Size,FALSE,FALSE,TRUE,FALSE,FALSE
-142193439953582,Numeric Toddler Shoe Size,Toddler Shoe Size,FALSE,FALSE,TRUE,FALSE,FALSE
-142193440163384,Numeric Little Kids Shoe Size,Little Kids Shoe Size,FALSE,FALSE,TRUE,FALSE,FALSE
-142193440353778,Numeric Big Kids Shoe Size,Big Kids Shoe Size,FALSE,FALSE,TRUE,FALSE,FALSE
-144023348954600,Men's General Regular Size,Men's General Regular Size,FALSE,TRUE,FALSE,TRUE,FALSE
-144035468902662,Alpha Little Boy Generic Size,Little Boy Generic Size,FALSE,TRUE,FALSE,TRUE,FALSE
-144095067196554,Alpha General Big & Tall Size,General Big & Tall Size,FALSE,TRUE,FALSE,TRUE,FALSE
-144100031912172,Numeric Little Boy Size,Little Boy Size,FALSE,TRUE,FALSE,TRUE,FALSE
-196984556345971,Instrument Style,Style,TRUE,TRUE,FALSE,TRUE,FALSE
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-209726597972336,Camera Type,Camera Type,FALSE,FALSE,TRUE,FALSE,FALSE
-210639330379569,Media / Storage,Media / Storage Type,FALSE,FALSE,TRUE,FALSE,FALSE
-214860031740638,Camera & Camcorder Memory,Internal Memory,FALSE,FALSE,TRUE,FALSE,FALSE
-215822795552796,Media Player Features,Features,FALSE,FALSE,TRUE,FALSE,FALSE
-215823271391861,Media Supported Services,Supported Services,FALSE,FALSE,TRUE,FALSE,FALSE
-,,,,,,,
-217600728943370,Booster Seat Strap Type,Booster Strap Type,FALSE,FALSE,TRUE,FALSE,FALSE
-217602323323190,Potty Trainer Feature,Feature,FALSE,FALSE,TRUE,FALSE,FALSE
-232365730052849,Bluefly Women's Shoe Size Variant,Shoe Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233001379291709,Bluefly Men's Pant Size Variant,Pant Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233002700525928,Bluefly Men's Dress Shirt Size Variant,Shirt Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233005352933039,Bluefly Men's General Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233006073221099,Bluefly Men's Suit Size Variant,Suit Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233006471112590,Bluefly Men's Belt Size Variant,Belt Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233006917670150,Bluefly Men's Hat Size Variant,Hat Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233008985620389,Bluefly Men's Glove Size Variant,Glove Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233009732574843,Bluefly Men's Shoe Size Variant,Shoe Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233102733896224,Bluefly Women's Intimates Size Variant,Intimates Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233106936426030,Bluefly Women's Top Size,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233109898575993,Bluefly Women's Dress Size,Dress Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233110382851593,Bluefly Women's Outerwear Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233110680683911,Bluefly Women's Skirt Size Variant,Skirt Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233110906584254,Bluefly Women's Belt Size Variant,Belt Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233111149530186,Bluefly Women's Glove Size Variant,Glove Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233112113347089,Bluefly Women's Hat Size Variant,Hat Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233112746220986,Bluefly Women's Jewelry Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233114155013265,Bluefly Women's Pant Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233220121286753,Bluefly Women's Swimwear Size Variant,Swimwear Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233736087943335,SA Men's Shoe Size Variant,Shoe Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233737266764543,SA Women's Shoe Size Variant,Shoe Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233739499430009,SA Men's Glove Size Variant,Glove Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233740552835090,SA Men's General Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233741408474428,SA Men's Pant Size Variant,Pant Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233742105224727,SA Men's Hat Size Variant,Hat Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233743101320733,SA Women's Outerwear Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233744704086809,SA Women's Pant Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-233746711927689,SA Women's Dress Size Variant,Dress Size,FALSE,TRUE,FALSE,TRUE,FALSE
-234862620841227,Number of pages,Number of pages,TRUE,TRUE,FALSE,FALSE,FALSE
-234867563404266,Age Range (Books and Media only),Age Range,FALSE,FALSE,FALSE,FALSE,FALSE
-276530878954947,Master Men's Sock Size Variant,Sock Size,FALSE,TRUE,FALSE,TRUE,FALSE
-276550645549583,Master Men's Underwear Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-276558145743483,FreshPair Exotic Apparel Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-276573917760799,Master Women's Legging and Hosiery Size Variant,Size,TRUE,TRUE,FALSE,TRUE,FALSE
-276578705487304,Master Women's Sleep and Lounge Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-277303463836135,Master Women's Panties Size Variant,Size,FALSE,TRUE,FALSE,TRUE,FALSE
-278008171333939,Clothing Care Instructions,Care Instructions,TRUE,TRUE,FALSE,FALSE,FALSE
-372131527537862,Make Model Year,"Make, Model, Year",TRUE,FALSE,FALSE,FALSE,FALSE
-379147176772277,TV Display Type,TV Display,FALSE,TRUE,FALSE,TRUE,FALSE
-379149843046677,TV Resolution,Resolution,FALSE,TRUE,FALSE,TRUE,FALSE
-379152165681597,TV Model Year,Model Year,FALSE,TRUE,FALSE,TRUE,FALSE
-379160618440627,TV Features,Features,FALSE,TRUE,FALSE,TRUE,FALSE
-379161923733356,TV Inputs/Outputs,Inputs/Outputs,FALSE,TRUE,FALSE,TRUE,FALSE
-379164356617192,TV Supported Internet,Supported Internet,FALSE,TRUE,FALSE,TRUE,FALSE
-385994734493155,TV Model Number,TV Model Number,TRUE,TRUE,FALSE,FALSE,FALSE
-391081523795837,Glass Type_Merchant Defined,Glass,TRUE,TRUE,FALSE,TRUE,FALSE
-391082241598745,Upholstery Type_Merchant Defined,Upholstery,TRUE,TRUE,FALSE,TRUE,FALSE
-411334774217690,Notebook Type_Merchant Defined,Notebook Type,FALSE,TRUE,FALSE,FALSE,FALSE
-411337983835536,Graphic Card Chipset_Merchant Defined,Graphic Card Chipset,TRUE,TRUE,FALSE,FALSE,FALSE
-411339123013525,Graphic Card Memory_merchant defined,Graphic Card Memory,FALSE,TRUE,FALSE,FALSE,FALSE
-411340040469828,Weight_Laptop_Merchant Defined,Weight,TRUE,TRUE,FALSE,FALSE,FALSE
-411340683686038,Laptop_Merchant Defined_Inputs/Outputs,Inputs/Outputs,TRUE,TRUE,FALSE,FALSE,FALSE
-414699706612006,Laptop Screen Size_Display_Merchant Defined,Laptop Screen Size,FALSE,TRUE,FALSE,FALSE,FALSE
-414700571438301,Laptop Operating System_Display_MerchDefined,Operating System,FALSE,TRUE,FALSE,FALSE,FALSE
-414701696370878,Hard Drive_Display_merchantDefined,Hard Drive Size,FALSE,TRUE,FALSE,FALSE,FALSE
-414702708578696,Processor Brand_Display_Merchant Defined,Processor Brand,FALSE,TRUE,FALSE,FALSE,FALSE
+id,description,display_name,free_text,variant,facet_filter
+1,Country of Origin,Country Of Origin,No,No,No
+2,Color,Color,Yes,No,Yes
+4,Material Type,Material,No,Yes,No
+5,Import Designation,Import Designation,No,No,No
+8,Product Form,Form,No,Yes,No
+9,ESRB Ratings,ESRB Ratings,No,No,No
+11,Towel Size,Type Of Towel,No,Yes,Yes
+13,Pillow Size,Pillow Size,No,Yes,Yes
+14,Light Source Type,Light Source,No,No,Yes
+15,DÃ©cor Style,Style,No,No,No
+16,Instrument Size,Instrument Size,No,Yes,No
+17,Fixture Finish Type,Finish,No,Yes,Yes
+18,Game Genre,Genre,No,No,No
+19,Book Format,Format,No,No,No
+20,Music Format,Music Format,No,Yes,Yes
+21,Software Format,Format,No,Yes,Yes
+23,Mitt Type,Mitt Type,No,No,Yes
+24,Printer Type,Printer Type,No,No,Yes
+25,Calculator Type,Calculator Type,No,No,Yes
+26,Scanner Type,Scanner Type,No,No,Yes
+27,Microwave Type,Microwave Type,No,No,Yes
+28,Baby Carrier Type,Carrier Type,No,Yes,Yes
+29,Breast Pump Type,Breast Pump Type,No,No,Yes
+30,Language,Language,No,No,No
+31,Age Range,Age Range,No,No,No
+32,Age Group,Age Group,No,No,Yes
+33,Target Audience,Target Audience,No,No,No
+34,Gender,Gender,No,No,No
+35,Battery Type,Battery Type,No,No,Yes
+36,Health & Beauty Item Form,Form,No,No,No
+37,Health & Beauty Specialty,Shop By Feature,No,No,No
+38,Fill Material,Fill Material,Yes,No,No
+39,Media Storage Capacity,Storage Capacity,Yes,Yes,No
+41,Device Compatibility,Device Compatibility,No,Yes,Yes
+42,Native Resolution,Native Resolution,No,No,No
+44,Power Source,Power Source,No,No,Yes
+45,Width,Width,Yes,Yes,No
+46,Weight or Volume,Size,No,Yes,No
+47,Film Speed,Film Speed,No,Yes,Yes
+48,Film Color,Film Color,No,Yes,Yes
+50,Size - Free Text,Size,Yes,Yes,No
+51,Mirror Style,Mirror Style,No,No,Yes
+52,Drinking Glass Type,Glass Type,No,No,Yes
+53,Camera Lens Type,Lens Type,No,No,Yes
+54,Optical Zoom,Optical Zoom,Yes,Yes,No
+55,Clock Type,Clock Type,No,No,No
+56,Mattress Type,Mattress Type,No,No,Yes
+57,Knitting Needle Size,Knitting Needle Size,No,Yes,Yes
+58,Crochet Hook Size,Crochet Hook Size,No,Yes,Yes
+59,TV  and Laptop Screen Size,Screen Size,No,Yes,No
+60,Paper Size,Paper Size,No,Yes,Yes
+61,Fish Type,Fish Type,No,No,Yes
+62,Pet Food Form,Pet Food Form,No,No,Yes
+63,Baby Stage,Stage,No,Yes,Yes
+64,Formula Type,Formula Type,No,No,Yes
+65,Wattage,Wattage,Yes,Yes,No
+66,Home Theater System Channels,Channels,Yes,No,Yes
+67,Watts Per Channel,Watts Per Channel,No,No,No
+68,Tuner Type,Tuner Type,No,No,Yes
+69,Refrigerator Style,Refrigerator Style,No,No,Yes
+70,Appliance Capacity,Capacity,Yes,No,No
+72,Coverage Unit of Measure,Coverage,Yes,No,No
+74,Range Installation Type,Range Installation Type,No,No,Yes
+75,Yarn Fiber,Yarn Fiber,No,No,Yes
+76,Item Volume,Volume,No,No,No
+80,Shoe Width,Shoe Width,No,Yes,No
+81,Old Diaper Size,Diapers Size,No,No,No
+83,Kids Shoe Sizes,Kids Shoe Sizes,No,Yes,No
+86,RETIRED Men's Pant Size,Men's Pant Size,No,Yes,No
+87,RETIRED Men's Dress Shirt Size,Men's Dress Shirt Size,No,Yes,No
+88,Product Material,Material,No,No,Yes
+89,Pet Life Stage,Life Stage,No,Yes,No
+90,Sheet Material,Material,No,No,No
+91,Bag Style,Bag Style,No,No,Yes
+93,Stone,Stone,No,Yes,No
+94,Hair Color,Hair Color,Yes,Yes,No
+95,Count Size,Count,No,Yes,No
+96,# of Players,# Of Players,No,No,Yes
+97,Women's Shoe Size,Women's Shoe Size,No,Yes,No
+98,Men's Shoe Size,Men's Shoe Size,No,Yes,No
+100,Furniture Material,Material,No,No,No
+101,Bird Type,Bird Type,No,No,Yes
+102,Small Animal Type,Small Animal Type,No,No,Yes
+103,Reptile type,Reptile Type,No,No,Yes
+104,Pet Food Special Diet,Special Diet,No,No,No
+105,Special Sizes,Additional Sizes,No,No,Yes
+106,Kids Shoe Width,Kids Shoe Width,No,Yes,No
+107,Video Format,Video Format,No,Yes,Yes
+108,MPAA Rating,MPAA Rating,Yes,No,No
+109,Subtitle Language,Subtitle Language,No,Yes,Yes
+110,Audio Encoding Language,Audio Encoding Language,No,No,Yes
+111,Adult Product,Adult Product,No,No,No
+112,Movie & TV Genre,Genre,Yes,No,No
+114,Generic Size- free text with units,Size,No,Yes,No
+115,Dog Size,Dog Size,No,No,No
+117,Flavor,Flavor,Yes,Yes,No
+118,Fragrancehttps://nova-web.prod.jet.network/,Fragrance,Yes,Yes,No
+119,Color,Color,Yes,Yes,No
+120,Nursery Furniture Type,Type,No,No,Yes
+121,Finish,Finish,Yes,Yes,No
+123,Length,Length,No,Yes,No
+124,Height,Height,No,Yes,No
+125,Diaper Size,Diaper Size,Yes,Yes,No
+128,Camera Image Resolution_Display,Megapixels,Yes,No,No
+129,Furniture Finish,Furniture Finish,Yes,Yes,No
+130,Monitor Type,Monitor Type,No,No,Yes
+131,Service Plan,Service Plan,Yes,No,Yes
+132,Warranty Plan,Warranty Plan,Yes,No,No
+134,GPS Feature,GPS Feature,Yes,No,No
+136,Hand Tool Type,Hand Tool Type,No,No,No
+137,Power Tool Type,Power Tool Type,No,No,No
+138,Hardware Finish Type,Hardware Finish Type,No,Yes,Yes
+139,Door Entry Side,Door Entry Side,No,Yes,Yes
+140,Ring Size,Ring Size,No,Yes,No
+141,Platform,Gaming Platform,No,Yes,No
+142,Bike Wheel Size,Bike Wheel Size,No,Yes,No
+143,Lens Color,Lens Color,Yes,Yes,No
+144,Airsoft Gun & Rifle Velocity,Airsoft Gun & Rifle Velocity,Yes,No,No
+145,Baseball Type,Baseball Type,No,No,Yes
+146,Bat Size,Bat Size,No,Yes,No
+147,Baseball Glove Size,Glove Size,No,Yes,No
+148,Baseball Throwing Hand,Throwing Hand,No,Yes,Yes
+149,Type of Protective Gear,Type Of Protective Gear,No,No,Yes
+150,Softball Type,Softball Type,No,No,Yes
+151,Team,Team,Yes,Yes,Yes
+152,Dimensional Size- built from Length X Width X Height,Product Dimensions,Yes,No,No
+153,Diameter,Diameter,No,Yes,No
+154,Bowling Ball Size,Bowling Ball Size,No,Yes,No
+155,Football Size,Football Size,No,No,Yes
+156,Golf Club Type,Golf Club Type,No,No,No
+157,Hand Orientation,Hand Orientation,No,Yes,No
+158,Tennis Raquet Grip Size,Tennis Raquet Grip Size,No,Yes,No
+159,Tennis Raquet Head Size,Tennis Raquet Head Size,No,Yes,No
+161,Rug Material,Rug Material,No,No,Yes
+162,Sink Style,Sink Style,No,No,Yes
+163,Cookware Material,Cookware Material,No,No,Yes
+164,Contract Type,Contract Type,No,No,Yes
+165,Cell Phone Carrier,Carrier,No,Yes,Yes
+166,Phone Operating System,Phone Operating System,No,No,Yes
+167,TV Refresh Rate,Refresh Rate,No,Yes,No
+169,Decor Material,Material,No,No,Yes
+171,Make,Make,Yes,No,No
+172,Model,Model,Yes,Yes,No
+173,"Year - Display, Free Text",Year,Yes,No,No
+174,Camera Filter Diameter,Camera Filter Diameter,No,No,No
+176,Wiring Type,Wiring Type,No,No,Yes
+177,Sleeping Bag Temperature Rating,Sleeping Bag Temperature Rating,Yes,No,No
+178,Brightness,Brightness,Yes,No,No
+179,Tent Capacity,Tent Capacity,No,No,Yes
+181,Wireless Standard,Wireless Standard,No,No,Yes
+182,Transmission Speed,Transmission Speed,Yes,No,No
+183,Processor Speed,Processor Speed,Yes,No,No
+209,DNU,DNU,No,Yes,No
+219,Hard Drive Size (OLD),Hard Drive Size,No,Yes,No
+225,# of Pieces,# Of Pieces,Yes,Yes,No
+248,Frame Color,Frame Color,No,Yes,No
+266,Dishwasher Installation Type,Installation Type,No,No,Yes
+267,Wine Cellar Capacity,Wine Cellar Capacity,Yes,Yes,No
+268,Activity,Activity,No,Yes,No
+269,Art Style,Art Style,No,No,Yes
+271,Watch Band Material,Watch Band Material,No,No,No
+273,Kids' Shoe Size - length only,Kids' Shoe Size,No,No,Yes
+279,Bike Capacity,Bike Capacity,No,No,Yes
+282,Certifications,Certifications,No,No,Yes
+283,Connector Type,Connector Type,No,No,Yes
+285,Designer,Designer,Yes,No,Yes
+286,Dietary Needs,Dietary Needs,No,No,Yes
+287,Grade Level,Grade Level,No,No,Yes
+288,Grit Size,Grit Size,No,Yes,Yes
+290,Hubcap Size,Hubcap Size,No,No,Yes
+291,Inseam,Inseam,No,No,Yes
+292,League,League,No,No,Yes
+293,Lens Mount Compatibility,Lens Mount Compatibility,No,No,Yes
+295,Men's Regular Waist Size,Men's Waist Size,No,No,Yes
+296,TV Model Year Facet Filter,TV Model Year,No,No,Yes
+297,Needle Type,Needle Type,No,No,Yes
+298,Occasion,Occasion,No,No,No
+299,OEM/Compatible,OEM/Compatible,No,No,Yes
+301,Platform Support,Platform Support,No,No,Yes
+303,RAM Technology,RAM Technology,No,No,Yes
+306,Rim Size,Rim Size,No,No,Yes
+307,Stroller Seating Capacity,Seating Capacity,No,No,Yes
+308,Shoe Style,Shoe Style,No,No,No
+310,Skin Type,Skin Type,No,No,No
+311,Theme,Theme,No,No,Yes
+312,US States & Regions,US States & Regions,No,No,Yes
+314,Vehicle Type,Vehicle Type,No,No,Yes
+317,"Year - Facet Filter, Value",Year,No,No,Yes
+318,Depth,Depth,Yes,No,No
+3801893080185,Video Box Office,Box Office,Yes,No,No
+39939493894083,Video Edition,Edition,Yes,No,No
+43984840312887,tension level,Tension Supported,Yes,Yes,No
+43984841697296,maximum size,Maximum Size,Yes,Yes,No
+43984848490626,vehicle speaker size,Vehicle Speaker Size,Yes,Yes,No
+43984858380839,item shape,Item Shape,Yes,Yes,No
+43984859044444,magnification strength,Magnification Strength,Yes,Yes,No
+43984859053743,platform for display,Display Platform,Yes,Yes,No
+43984867739000,golf club loft,Loft,Yes,No,No
+43984868016650,configuration,Configuration,Yes,Yes,No
+43984885052616,speakers maximum output power,Speaker Maximum Output Power,Yes,Yes,No
+43984887979890,lens width,Lens Width,Yes,Yes,No
+43984903758222,amperage,Amperage,Yes,Yes,No
+43984903761407,number of items,Number Of Items,Yes,Yes,No
+43984903763619,size per pearl,Pearl Size,Yes,Yes,No
+43984903765725,speaker system class,Speaker System Class,Yes,Yes,No
+43984903767658,grip size,Grip Size,Yes,Yes,No
+43984903769876,action,Action,Yes,Yes,No
+43984903771858,service plan term,Service Plan Term,Yes,Yes,No
+43984903773781,edition,Edition,Yes,Yes,No
+43984903777491,total diamond weight,Total Diamond Weight,Yes,Yes,No
+43984903783238,metal type,Metal Type,Yes,Yes,No
+43984917669689,curvature,Curvature,Yes,Yes,No
+43984917672495,Amplifier Output Power,Power Output,Yes,Yes,No
+43984917674438,preamplifier output channel quantity,Preamplifier Output Channel Quantity,Yes,Yes,No
+43984917676278,age gender category,Age/Gender,Yes,Yes,No
+43984917678067,service plan covered value,Service Plan Covered Value,Yes,Yes,No
+43984917679839,golf club flex,Flex,Yes,Yes,No
+43984917681513,feet type,Feet Type,Yes,Yes,No
+43984917684370,inferred variation dimension 1,Options,Yes,Yes,No
+43984917686825,edge style,Edge Style,Yes,Yes,No
+43984917690368,metal stamp,Metal Stamp,Yes,Yes,No
+43984929292567,shaft material type,Shaft Material,Yes,No,No
+43984929294914,leg style,Leg Style,Yes,Yes,No
+43984929296882,initial character,Initial,Yes,Yes,No
+43984929298231,voice coil description,Voice Coil,Yes,Yes,No
+43984929300218,item thickness string,Item Thickness,Yes,Yes,No
+43984929302312,thread size,Thread Size,Yes,Yes,No
+43984937939148,fabric type,Fabric Type,Yes,Yes,No
+124309014198622,Cell Phone Internal Storage Capacity,Internal Storage Capacity,No,No,No
+124340313566418,Battery Capacity,Battery Capacity,No,No,No
+124340313819098,Compatible Game Consoles,Compatible Game Consoles,No,No,Yes
+124340314016929,Crossover Channel Qty,Crossover Channel Qty,No,No,No
+124340314244049,Audio System Designed For,Audio System Designed For,No,No,Yes
+124340314460257,Optical Drive Type,Optical Drive Type,Yes,No,No
+124340314681431,Lens Focal Length,Lens Focal Length,No,No,Yes
+124340314906323,Graphics Processor,Graphics Processor,No,No,No
+124340315093582,Appliance Max Power Consumption,Appliance Max Power Consumption,No,No,No
+124340315292575,Printing Speed B/W,Printing Speed B/W,No,No,No
+124340315484434,Printing Speed Color,Printing Speed Color,No,No,No
+124340315682897,Printing Resolution B&W,Printing Resolution B&W,No,No,No
+124340315874017,Printing Resolution Color,Printing Resolution Color,No,No,No
+124340316203882,Video Input Max Resolution,Video Input Max Resolution,No,No,No
+124340316463296,Number of Cores,Number Of Cores,No,No,Yes
+124340316662193,Output Channel Qty,Output Channel Qty,No,No,Yes
+124340316930217,Power Output Connector Type,Power Output Connector Type,No,No,No
+124340317134637,Amplifier Output Power,Amplifier Output Power,Yes,No,No
+124340317334475,Printing Output Type,Printing Output Type,No,No,Yes
+124340317522545,Battery Run Time,Battery Run Time,No,No,No
+124340317708185,Number of Channels,Number Of Channels,No,No,No
+124340317907249,Operating System/ Version,Operating System/ Version,No,Yes,No
+124340318107986,Computer Processor Type,Computer Processor Type,No,No,Yes
+124340318326280,EPEAT Level,EPEAT Level,No,No,No
+125331343892421,Audio System Max Output Power,Audio System Max Output Power,No,No,No
+142193437641974,Numeric Boys Slim Size,Boys Slim Size,No,No,Yes
+142193437837481,Numeric Boys Husky Size,Boys Husky Size,No,No,Yes
+142193438049251,Little Girl Generic Size,Little Girl Size,No,No,Yes
+142193438454779,Big Girl Generic Size,Big Girl Size,No,No,Yes
+142193438638289,Numeric Big Girl Size,Big Girl Size,No,No,Yes
+142193439332293,Numeric Girls Slim Size,Girls Slim Size,No,No,Yes
+142193439953582,Numeric Toddler Shoe Size,Toddler Shoe Size,No,No,Yes
+142193440163384,Numeric Little Kids Shoe Size,Little Kids Shoe Size,No,No,Yes
+142193440353778,Numeric Big Kids Shoe Size,Big Kids Shoe Size,No,No,Yes
+196984556345971,Instrument Style,Style,Yes,Yes,No
+209726597972336,CameraType_Display,Camera Type,No,No,No
+216759219967095,Diaper Product Type,Diaper Type,No,No,Yes
+234862620841227,Number of pages,Number Of Pages,Yes,No,No
+234867563404266,Age Range (Books and Media only),Age Range,No,No,No
+278008171333939,Clothing Care Instructions,Care Instructions,Yes,No,No
+379147176772277,TV Display Type,TV Display,Yes,Yes,No
+379149843046677,TV Resolution,Resolution,No,Yes,No
+379152165681597,TV Model Year,Model Year,No,Yes,No
+379160618440627,TV Features,Features,No,Yes,No
+379161923733356,TV Inputs/Outputs,Inputs/Outputs,Yes,Yes,No
+379164356617192,TV Supported Internet,Supported Internet,No,Yes,No
+404891793019313,Books Age Range_FF,Age Groups,No,No,Yes
+411340040469828,Weight_Laptop_Merchant Defined,Weight,Yes,No,No
+414700571438301,Laptop Operating System_Display_MerchDefined,Operating System,Yes,No,No
+504389797806388,Product Features_Display,Product Features,Yes,No,No
+511361125668704,Multipack Size,Multipack Size,No,No,No
+511368435526536,Neck Style,Neck Style,No,No,No
+511372015681874,Rise,Rise,No,No,No
+512039250234351,Age Use_Display,Age Use,Yes,No,No
+513030905061412,Additional Sizes,Additional Sizes,No,No,No
+513037973449358,Sleeve Type,Sleeve Type,No,No,No
+513042312647915,Activity,Activity,No,No,No
+513044444979655,Fit Type,Fit Type,No,No,No
+513046011598708,Heel Height,Heel Height,No,No,No
+513046738116851,Collar Type,Collar Type,No,No,No
+513048377835063,Cuff Type,Cuff Type,No,No,No
+513050456804286,Fabric Technology,Fabric Technology,No,No,No
+513051828099915,Closure Type,Closure Type,No,No,No
+513054567010491,Sock Rise,Sock Rise,No,No,No
+513058594192061,Insole,Insole,No,No,No
+513059863117215,Import Designation,Import Designation,No,No,No
+513081371926655,Bracelet / Strap Length,Bracelet / Strap Length,No,No,No
+513085472452811,Bracelet / Strap Width,Bracelet / Strap Width,No,No,No
+513087275890107,Stylistic Features,Stylistic Features,No,No,No
+513088167158834,Pocket Descriptions,Pocket Descriptions,No,No,No
+513091794504927,Bracelet Style,Bracelet Style,No,No,No
+513094879187094,Case Height,Case Height,No,No,No
+513096765259189,Case Material,Case Material,No,No,No
+513098696886945,Leg Style,Leg Style,No,No,No
+513099506927451,Case Shape,Case Shape,No,No,No
+513102357501624,Case Size,Case Size,No,No,No
+513105301815796,Case Width,Case Width,No,No,No
+513106316802706,Center Stone Shape,Center Stone Shape,No,No,No
+513138991684611,Leg Opening,Leg Opening,No,No,No
+513715621774132,Complication,Complication,No,No,No
+513717034315857,Crystal Material,Crystal Material,No,No,No
+513718028329318,Dial Markers,Dial Markers,No,No,No
+513719161273299,Diamond Clarity,Diamond Clarity,No,No,No
+513721792348938,Handbag Type,Handbag Type,Yes,No,No
+513726885980156,Diamond Color,Diamond Color,No,No,No
+513728829016090,Dimensions,Dimensions,Yes,No,No
+513730589493568,Earring Closure,Earring Closure,No,No,No
+513732536937855,Earring Style,Earring Style,No,No,No
+513743952684034,Inseam,Inseam,No,No,No
+513745986518808,Pleat Type,Pleat Type,No,No,No
+513748043728833,Denim Wash,Denim Wash,No,No,No
+513755397373888,Movement,Movement,No,No,No
+513756406606541,Necklace Style,Necklace Style,No,No,No
+513758328985880,Piercing Gauge,Piercing Gauge,No,No,No
+513762245763531,Ring Type,Ring Type,No,No,No
+513763518793014,Ring Width,Ring Width,No,No,No
+513764307337795,Secondary Stone,Secondary Stone,No,No,No
+513764708412662,Strap Type,Strap Type,No,No,No
+513777790956385,Occasion,Occasion,No,No,No
+513780401150098,Length,Length,No,No,No
+513781292527079,Accent Stone,Accent Stone,No,No,No
+513791437535672,Strap Type,Strap Type,Yes,No,No
+513792226668993,Strap Drop,Strap Drop,Yes,No,No
+513793253119933,Material: Lining,Material: Lining,Yes,No,No
+513793740969918,Color: Interior,Color: Interior,Yes,No,No
+513794651258665,Interior Features,Interior Features,Yes,No,No
+513795748754532,Color Code,Color Code,Yes,No,No
+513796145254953,Brand Style Number,Brand Style Number,No,No,No
+513799293575892,Collection Name,Collection Name,No,No,No
+513799317851124,Wallet Type,Wallet Type,Yes,No,No
+513799637599973,Item Model Number,Item Model Number,No,No,No
+513800871173228,Carat Total Weight,Carat Total Weight,No,No,No
+513802027710493,Water Resistance,Water Resistance,No,No,No
+513802469470713,Special Features,Special Features,Yes,No,No
+513802711653867,Item Type,Item Type,No,No,No
+513804122977547,Hat Type,Hat Type,Yes,No,No
+513806555485723,Collection Name,Collection Name,Yes,No,No
+513806617675630,Carat Weight: Center Stone,Carat Weight: Center Stone,No,No,No
+513808424791296,Carat Weight: Side Stone,Carat Weight: Side Stone,No,No,No
+513808983912093,Carat Weight: Accent Stone,Carat Weight: Accent Stone,No,No,No
+513809865088922,Strap Width,Strap Width,Yes,No,No
+513810004669350,Feature Design,Feature Design,No,No,No
+513810294513543,Buckle Type,Buckle Type,Yes,No,No
+513810847177147,Buckle Dimensions,Buckle Dimensions,Yes,No,No
+513811303370759,Necklace Length,Necklace Length,No,No,No
+513812007930733,Pendant Measurements,Pendant Measurements,No,No,No
+513812660304628,Earring Length,Earring Length,No,No,No
+513812876356432,Earring Width,Earring Width,No,No,No
+513813201200235,Dimensions: Brooches,Dimensions: Brooches,No,No,No
+513814277861124,Target Area,Target Area,No,No,No
+513814949743575,Hardware Material,Hardware Material,Yes,No,No
+513815597980437,Glove Stype,Glove Stype,Yes,No,No
+513820344220754,Frame Shape,Frame Shape,Yes,No,No
+513821136443629,Lens Width,Lens Width,No,No,No
+513822744018235,Bridge Width,Bridge Width,No,No,No
+513824735172666,Temple Length,Temple Length,No,No,No
+513824787181174,Apparel Style,Apparel Style,No,No,No
+513825554119952,Frame Material,Frame Material,Yes,No,No
+513826027822698,Sun Protection,Sun Protection,Yes,No,No
+513827094182012,Lens Features,Lens Features,Yes,No,No
+513830560446087,Item Type,Item Type,Yes,No,No
+513831676267034,Scarf Type,Scarf Type,Yes,No,No
+513832200813586,Material Type,Material Type,No,No,No
+513833092405444,Apparel Composition,Apparel Composition,Yes,No,No
+513836127554920,Style Number,Style Number,Yes,No,No
+513837025132080,Pattern,Pattern,No,No,No
+513842408435658,Pattern,Pattern,Yes,No,No
+513883378713604,Hardware Color,Hardware Color,Yes,No,No
+513887434522186,Tie Width,Tie Width,Yes,No,No
+518081940520658,Luggage Type,Luggage Type,No,No,No
+518082722754946,Luggage Height,Luggage Height,Yes,No,No
+518085408599335,Luggage Features,Luggage Features,Yes,No,No
+518087947705570,Umbrella Closure Type,Umbrella Closure Type,Yes,No,No
+519125788920575,Processor Model_Display,Processor Brand,Yes,Yes,No
+519126641334105,System Memory_Display,System Memory,Yes,Yes,No
+519774786768231,Kid's Clothing Size,Kid's Clothing Size,No,Yes,No
+519786065784702,Kid's Shoe Size,Kid's Shoe Size,No,Yes,No
+519824473810831,Material,Material,Yes,No,No
+519825511596913,Closure Type,Closure Type,Yes,No,No
+523533093016334,Food storage bag FF closure type,Closure Type,No,No,Yes
+526873765299768,Food storage bags FF material,Material,No,No,Yes
+533924290307812,Wireless Technology_Display,Wireless Technology,Yes,No,No
+533976274900248,Laptop Series_Display,Laptop Series,Yes,No,No
+543945333205617,Portable Speakers_Connectivity Type_Display,Connectivity Type,No,No,No
+544001739702264,Portable Speakers_Battery Type_Display,Battery Type,Yes,No,No
+547631127771025,Processor Model,Processor Model,Yes,No,No
+549354562288885,dISPLAY_Mens Underwear_Material (DONOTTOUCH-TESTING),Material,Yes,No,No
+556261155964888,Section Width_Display_Tires,Section Width,No,No,No
+556261596051513,Aspect Ratio_Tires_Display,Aspect Ratio,No,No,No
+556262579527110,Speed Rating_Tires_Display,Speed Rating,No,No,No
+556263399542855,Load Index_Tires_Display,Load Index,No,No,No
+556263946939165,Warranty Mileage_Tires_Display,Warranty Mileage,No,No,No
+556266037613194,Overall Diameter_Tires_Display,Overall Diameter,No,No,No
+556266651719320,Rim Width Range_Tires_Display,Rim Width Range,No,No,No
+556267102314845,Rim Width Min_Tires_Display,Rim Width Min,No,No,No
+556267638912868,Rim Width Max_Tires_Display,Rim Width Max,No,No,No
+556271344677269,Ply_Tires_Display,Ply,No,No,No
+556303484141752,Tread Depth_Tires_Display,Tread Depth,No,No,No
+556303485271425,Construction_Tires_Display,Construction,No,No,No
+556303495461628,Ply Rating_Tires_Display,Ply Rating,Yes,No,No
+556303495557746,Uniform Tire Quality Grade_Tires_Display,UTQG,Yes,No,No
+556303495652797,Measuring Rim Width_Tires_Display,Measuring Rim Width,Yes,No,No
+556303495767763,Maximum Inflation Pressure_Tires_Display,Maximum Inflation Pressure,Yes,No,No
+556303495858623,Maximum Load_Tires_Display,Maximum Load,Yes,No,No
+556303495941049,Tire Weight_Tires_Display,Tire Weight,Yes,No,No
+556303496343561,Revolutions Per Mile_Tires_Display,Revolutions Per Mile,Yes,No,No
+556303496431458,Raw Size_Tires_Display,Raw Size,Yes,No,No
+558908039958494,On Mode Power (Watts)_Display_TVs,On Mode Power (Watts),Yes,No,No
+558908807758460,Sleep Mode Power (Watts)_Display_TVs,Sleep Mode Power (watts),Yes,No,No
+558909584961990,Series_Display_TVs,Series,Yes,No,No
+558909996568534,VESA Wall Mount Standard_Display_TVs,VESA Wall Mount Standard,Yes,No,No
+559698526850682,Sidewall Color_Tires_Display,Sidewall Color,No,No,No
+560684053278991,Hard Drive Type,Hard Drive Type_Facet Filter,No,No,Yes
+561479139045839,Processor Model_FF,Processor Model,No,Yes,Yes
+562269714961590,Monitor Resolution_Display,Resolution,No,Yes,No
+565618253602062,Data Storage_Series_Display,Series,Yes,No,No
+565619523292714,Data Storage_Interface_Display,Interface,Yes,No,No
+565621545107032,Data Storage_Form Factor_Display,Form Factor,No,No,No
+565622408707200,Data Storage_Model Number_Display,Model Number,Yes,No,No
+566417613610747,Data Storage_Color_Display,Color,Yes,No,No
+566600832135972,Operating System Version_Tablets_Display,Operating System Version,Yes,No,Yes
+567333849237851,Connectivity Types_Electronics_FF,Connectivity Types,No,No,Yes
+567340489423490,Display Type_tablets_display,Display Type,Yes,No,No
+567345393685538,Built-in Storage Capacity_Tablets_Display,Storage Capacity,No,No,Yes
+567353857448915,Wireless Connectivity_Tablets_Display,Wi-Fi Connectivity,No,No,No
+567357573465682,Cellular Connectivity Type_Electronics_Display,Cellular Connectivity,No,No,No
+567358667730764,Bluetooth Enabled_Electronics_Display,Bluetooth Enabled,No,No,Yes
+567362065577278,Expandable Memory Type_Display,Expandable Memory Type,Yes,No,No
+567362393390713,Tablet Form Type_Display,Tablet Form Type,No,No,Yes
+567363036287368,Front Camera Megapixels_Display,Front Camera Megapixels,No,No,No
+567408743801898,Rear Camera Megapixels_Electronics_Display,Rear Camera Megapixels,No,No,No
+567412747702443,Additional Camera Features_Electronics_Display,Additional Camera Features,No,No,No
+567414434433103,Length_with definitions_Display,Length,No,No,No
+567416027025562,Width with definitions_Display,Width,No,No,No
+567422420581595,Compatible Media Formats_Display,Compatible Media Formats,Yes,No,No
+567436379038736,Featured Applications and Software_Electronics_Display,Featured Applications & Software,Yes,No,No
+567438069294721,Recommended Uses_Computing_FF,Recommended Uses,No,No,Yes
+568137484452404,Tablet Series_Display,Tablet Series,Yes,No,No
+572570280856654,Vacuums_Power Wattage_Display,Power Wattage,Yes,No,No
+572578003328816,Vacuums_Dust Bin Capacity_Display,Dust Bin Capacity,Yes,No,No
+572636620499733,Vacuums_Cleaning Path Width_Display,Cleaning Path Width,Yes,No,No
+574282740492400,Monitor Refresh Rate_Display,Refresh Rate,Yes,No,No
+574402267159449,Vacuums_Weight_Display,Weight,Yes,No,No
+574446146537670,Input/Outputs_Monitors_Display,Input(s),No,No,No
+574450399191283,Display Type_Values_Monitors_Display,Display Type,No,No,No
+574450795792324,Panel Type_Monitors_Display,Panel Type,No,No,No
+574451357839172,Screen Format,Screen Format,No,No,No
+574452008683401,Number of USB Ports_Display,USB Port(s),No,No,No
+574452334162420,TV Tuner,TV Tuner,No,No,No
+574452958342759,Built-in Speaker(s),Built-in Speaker(s),No,No,No
+574453402988057,Dot Pitch,Dot Pitch,No,No,No
+574472951767634,Aspect Ratio_Screen and Monitors_Display,Aspect Ratio,No,No,No
+575440576319498,Monitor Features_Display_Facet_Merchant Defined Values,Features,No,No,Yes
+575441103664723,Contrast Ratio_Display,Contrast Ratio,Yes,No,No
+575441865713223,Pixel Density_Display,Pixel Density,Yes,No,No
+575442364458473,Horizontal Viewing Angle_Display,Horizontal Viewing Angle,Yes,No,No
+575443453752393,Monitor Dimensions,Dimensions,Yes,No,No
+575444170681277,Weight_Display,Weight,Yes,No,No
+576943025557943,Data Storage_Memory Components_Display,Memory Components,Yes,No,No
+576943317655536,Data Storage_Controller_Display,Controller,Yes,No,No
+576943721831883,Data Storage_Power Consumption_Display,Power Consumption,Yes,No,No
+576944045759561,Data Storage_Operating Temperature_Display,Operating Temperature,Yes,No,No
+577611638959766,RETIRED_Party_Holiday,Holiday,No,No,Yes
+577611639061009,HH Count,Count,No,No,Yes
+577611639254449,HH Party Material,Material,No,No,Yes
+577611639350527,HH Party Gift Wrapping Supplies Material,Finish,No,No,Yes
+577611639444389,HH Party supplies Card type,Card Type,No,No,Yes
+578588281898797,Blenders_Wattage_Filter,Wattage,No,No,Yes
+578593602141926,Blenders_Type_Display,Blender Type,Yes,No,No
+578596925325595,Blenders_Number of Blades_Display,Number Of Blades,Yes,No,No
+578597713423931,Blenders_Number of Speed Settings_Display,Number Of Speeds,Yes,No,No
+578599163324951,Blenders_Wattage_Display,Wattage,Yes,No,No
+578605386679224,Blenders_What's Included_Display,What's Included,Yes,No,No
+578612082720758,Blenders_Product Care_Display,Product Care,Yes,No,No
+578613588359356,Blenders_Material_Display,Material,Yes,No,No
+578615600063849,Blenders_Cord Storage_Display,Cord Storage,Yes,No,No
+578673043108349,Humidifiers_Product Dimensions,Product Dimensions,Yes,No,No
+578674637977259,Humidifiers_Product Weight,Product Weight,Yes,No,No
+578676206591539,Humidifiers_Water Tank Dimensions,Water Tank Dimensions,Yes,No,No
+578676915750489,Humidifiers_Runtime,Runtime,Yes,No,No
+578677703724004,Humidifiers_Output per Day,Output per Day,Yes,No,No
+578718382381343,Bar Tape/Grips_D_Bikes,Bar Tape/Grips,Yes,No,No
+578718382581395,Bottom Bracket_D_Bikes,Bottom Bracket,Yes,No,No
+578718382677971,Brakes_D_Bikes,Brakes,Yes,No,No
+578718382791304,Cassette_D_Bikes,Cassette,Yes,No,No
+578718382886989,Chain_D_Bikes,Chain,Yes,No,No
+578718382980252,Cog Size_D_Bikes,Cog Size,Yes,No,No
+578718383074302,Color_D_Bikes,Color,Yes,No,No
+578718383169366,Crankset_D_Bikes,Crankset,Yes,No,No
+578718384308853,Fork_D_Bikes,Fork,Yes,No,No
+578718385403136,Frame Material_D_Bikes,Frame Material,Yes,No,No
+578718385585029,Front Derailleur_D_Bikes,Front Derailleur,Yes,No,No
+578718385678930,Front Hub_D_Bikes,Front Hub,Yes,No,No
+578718385772638,Front Wheel_D_Bikes,Front Wheel,Yes,No,No
+578718385859405,Handlebar_D_Bikes,Handlebar,Yes,No,No
+578718385954535,Headset_D_Bikes,Headset,Yes,No,No
+578718386040009,Pedals_D_Bikes,Pedals,Yes,No,No
+578718386128622,Rack Mounts_D_Bikes,Rack Mounts,Yes,No,No
+578718386242592,Rear Derailleur_D_Bikes,Rear Derailleur,Yes,No,No
+578718386327874,Rear Hub_D_Bikes,Rear Hub,Yes,No,No
+578718386420083,Rear Shock_D_Bikes,Rear Shock,Yes,No,No
+578718386565511,Rear Wheel_D_Bikes,Rear Wheel,Yes,No,No
+578718387653342,Saddle_D_Bikes,Saddle,Yes,No,No
+578718387750192,Seatpost_D_Bikes,Seatpost,Yes,No,No
+578718387838569,Shifters/Levers_D_Bikes,Shifters/Levers,Yes,No,No
+578718387924790,Stem_D_Bikes,Stem,Yes,No,No
+578718388021191,Tires_D_Bikes,Tires,Yes,No,No
+578718388105945,Tubes_D_Bikes,Tubes,Yes,No,No
+578718388198522,Weight_D_Bikes,Weight,Yes,No,No
+578718388296150,Wheelset_D_Bikes,Wheelset,Yes,No,No
+579362984594991,Household Fans_Product Dimensions,Product Dimensions,Yes,No,No
+579363308326364,Household Fans_Product Weight,Product Weight,Yes,No,No
+579363966367653,Household Fans_Number of Speed Settings,Number Of Speed Settings,Yes,No,No
+579576494139855,Health and Beauty_Material_Display_AL,Material,Yes,No,No
+583750240537947,Space Heaters_Model Number,Model Number,Yes,No,No
+583750568724494,Space Heaters_Number of Heat Settings,Number Of Heat Settings,Yes,No,No
+583753118305217,Electrical Equipment_Product Height_Display,Product Height,Yes,No,No
+583808381654650,Electrical Equipment_Product Width_Display,Product Width,Yes,No,No
+583894501588358,Electrical Equipment_Product Depth_Display,Product Depth,Yes,No,No
+583895266234713,Electrical Equipment_Number of Switches_Display/Variant,Number Of Switches,Yes,No,No
+583960595441288,Electrical Equipment_Voltage_Display/Variant,Voltage,No,Yes,No
+583962120992734,Electrical Equipment_Switch Type_Display/Variant,Switch Type,No,Yes,No
+583962439042961,Electrical Equipment_Amperage_Display,Amperage,No,No,No
+583963206347228,Electrical Equipment_Model Number_Display,Model Number,Yes,No,No
+583965523525628,Electrical Equipment_Number of Switches_Display/Variant,Number Of Switches,Yes,Yes,No
+584583832882699,Flashlights_Lumens_Display,Lumens,Yes,No,No
+584685272415387,Flashlights_Battery Type_Display,Battery Type,Yes,No,No
+584696857140406,Dimensions,Dimensions,Yes,No,No
+584699604999833,Flashlights_Runtime_Display,Runtime,Yes,No,No
+584702042473267,Flashlights_Distance_Display,Distance,Yes,No,No
+584703852126678,Flashlights_Weight_Display,Weight,Yes,No,No
+584705304751549,Flaslights_Number of Batteries Required_Display,Number Of Batteries Required,Yes,No,No
+584830178136574,Hardware_Assembled Depth_Display,Assembled Depth,Yes,No,No
+584830520947384,Hardware_Assembled Width_Display,Assembled Width,Yes,No,No
+584830776021200,Hardware_Assembled Height_Display,Assembled Height,Yes,No,No
+584832656547899,Hardware_Deadbolt Bore Hole Diameter_Display,Deadbolt Bore Hole Diameter,Yes,No,No
+584833107396787,Hardware_Deadbolt Cross Bore Diameter_Display,Deadbolt Cross Bore Diameter,Yes,No,No
+584835040398159,Hardware_Deadbolt Strike Height_Display,Deadbolt Strike Height,Yes,No,No
+584837590868785,Hardware_Deadbolt Throw Length_Display,Deadbolt Throw Length,Yes,No,No
+584838382601091,Hardware_Deadbolt Trim Ring Diameter_Display,Deadbolt Trim Ring Diameter,Yes,No,No
+584838598262700,Hardware_Projection_Display,Projection,Yes,No,No
+584840331347185,Hardware_Required Door Thickness_Display,Required Door Thickness,Yes,No,No
+584842133343763,Hardware_Commercial Hardware Type_Display,Commercial Hardware Type,Yes,No,No
+584842695446083,Hardware_Commercial/Residential_Display,Commercial/Residential,No,No,No
+584843484214136,Hardware_Deadbolt Type _Display,Deadbolt Type,No,No,No
+584843766090444,Hardware_Deadbolt Strike_Display,Deadbolt Strike,Yes,No,No
+584844159532823,Hardware_Door Handing_Display,Door Handing,No,No,No
+584845309668795,Hardware_Electronic_Display,Electronic,No,No,No
+584845549312075,Hardware_Hardware Finish Family_Display,Hardware Finish Family,No,No,No
+584845800395383,Hardware_Interior/Exterior_Display,Interior/Exterior,No,No,No
+584846024917220,Hardware_Lock Type_Display,Lock Type,No,No,No
+584846241987553,Hardware_Material_Display,Material,No,No,No
+584846459156862,Hardware_Product Weight_Display,Product Weight,Yes,No,No
+584847519084274,Hardware_Security/ANSI Grade_Display,Security/ANSI Grade,No,No,No
+584847825737038,Hardware_Door Locks & Knobs Product Type_Display,Door Locks & Knobs Product Type,Yes,No,No
+584848171527516,Hardware_Electronic Door Lock Type_Display,Electronic Door Lock Type,No,No,No
+584848433622373,Hardware_Power Source_Display,Power Source,No,No,No
+584848574267999,Hardware_Number of Batteries Required_Display,Number Of Batteries Required,No,No,No
+584848861965497,Hardware_Battery Size_Display,Battery Size,No,No,No
+584849008510532,Hardware_Indicator light(s)_Display,Indicator light(s),No,No,No
+584849553171898,Hardware_Number of Buttons_Display,Number Of Buttons,No,No,No
+584849694967818,Hardware_Timed Entry Allowance_Display,Timed Entry Allowance,No,No,No
+584850778289120,Hardware_Holding Force_Display,Holding Force,Yes,No,No
+584851075643855,Hardware_Faceplate Depth_Display,Faceplate Depth,Yes,No,No
+584851342502848,Hardware_Faceplate Width_Display,Faceplate Width,Yes,No,No
+584854446629168,Hardware_Faceplate Height_Display,Faceplate Height,Yes,No,No
+584854593460175,Hardware_Strike Plate Height_Display,Strike Plate Height,Yes,No,No
+584855103410090,Hardware_Strike Plate Width_Display,Strike Plate Width,Yes,No,No
+584855250232759,Hardware_Knob Bore Hole Diameter_Display,Knob Bore Hole Diameter,Yes,No,No
+584855884309934,Hardware_Knob Cross Bore Diameter_Display,Knob Cross Bore Diameter,Yes,No,No
+584856029129765,Hardware_Knob Diameter_Display,Knob Diameter,Yes,No,No
+584856195379459,Hardware_Knob Housing Height_Display,Knob Housing Height,Yes,No,No
+584856332436111,Hardware_Knob Housing Width_Display,Knob Housing Width,Yes,No,No
+584856472417718,Hardware_Knob/Lever Throw Length_Display,Knob/Lever Throw Length,Yes,No,No
+585500966379621,Model Number_Security & Surveillance_Display,Model Number,Yes,No,No
+585502651910750,Height_Security & Surveillance_Display,Height,Yes,No,No
+585502803741264,Width_Security & Surveillance_Display,Width,Yes,No,No
+585503066696296,Depth_Security & Surveillance_Display,Depth,Yes,No,No
+585503260205234,Weight_Security & Surveillance_Display,Weight,Yes,No,No
+585504278834578,3-Axis Adjustable_Security & Surveillance_Display,3-Axis Adjustable,No,No,No
+585504524567471,Audio-Only Option_Security & Surveillance_Display,Audio-Only Option,No,No,No
+585504708376343,Auto Detecting_Security & Surveillance_Display,Auto Detecting,No,No,No
+585504868537429,Auto Speed Sensing_Security & Surveillance_Display,Auto Speed Sensing,No,No,No
+585505032751518,Clock Display_Security & Surveillance_Display,Clock Display,No,No,No
+585505243012316,Color Display_Security & Surveillance_Display,Color Display,No,No,No
+585505387589071,Data Encryption_Security & Surveillance_Display,Data Encryption,No,No,No
+585505611936917,Day/Night Mode_Security & Surveillance_Display,Day/Night Mode,No,No,No
+585505767849990,ENERGY STAR Certified_Security & Surveillance_Display,ENERGY STAR Certified,No,No,No
+585505986554593,Gigabit Ethernet Speed_Security & Surveillance_Display,Gigabit Ethernet Speed,No,No,No
+585507927430690,High Definition_Security & Surveillance_Display,High Definition,No,No,No
+585508088655718,Indicator Light(s)_Security & Surveillance_Display,Indicator Light(s),No,No,No
+585508280803679,Integrated Modem_Security & Surveillance_Display,Integrated Modem,No,No,No
+585508431774143,LED Indicator(s)_Security & Surveillance_Display,LED Indicator(s),No,No,No
+585510863238515,Memory Card Slot_Security & Surveillance_Display,Memory Card Slot,No,No,No
+585511031368127,Monitor Auto Shut-Off_Security & Surveillance_Display,Monitor Auto Shut-Off,No,No,No
+585511205433393,Music Player_Security & Surveillance_Display,Music Player,No,No,No
+585511377670738,Pan-Tilt-Zoom_Security & Surveillance_Display,Pan-Tilt-Zoom,No,No,No
+585511523066048,Parental Controls_Security & Surveillance_Display,Parental Controls,No,No,No
+585511668152750,Plug and Play_Security & Surveillance_Display,Plug and Play,No,No,No
+585511831476657,Programmable_Security & Surveillance_Display,Programmable,No,No,No
+585511939140330,Rechargeable_Security & Surveillance_Display,Rechargeable,No,No,No
+585512089372954,Records Audio_Security & Surveillance_Display,Records Audio,No,No,No
+585512233582675,Remote Monitoring_Security & Surveillance_Display,Remote Monitoring,No,No,No
+585512392947310,Smartphone Compatible_Security & Surveillance_Display,Smartphone Compatible,No,No,No
+585512561880185,Speakerphone_Security & Surveillance_Display,Speakerphone,No,No,No
+585512709082701,Temperature Display_Security & Surveillance_Display,Temperature Display,No,No,No
+585512878404743,Temperature Tracking_Security & Surveillance_Display,Temperature Tracking,No,No,No
+585513080124214,Touch Screen_Security & Surveillance_Display,Touch Screen,No,No,No
+585513254868913,Video Recording_Security & Surveillance_Display,Video Recording,No,No,No
+585513423985520,Volume Control_Security & Surveillance_Display,Volume Control,No,No,No
+585513613651858,Water-Resistant_Security & Surveillance_Display,Water-Resistant,No,No,No
+585515460302698,Keyless Entry_Security & Surveillance_Display,Keyless Entry,No,No,No
+585515601146943,Backlit_Security & Surveillance_Display,Backlit,No,No,No
+585515767117058,Keypad Lock_Security & Surveillance_Display,Keypad Lock,No,No,No
+585516112054326,Auxiliary Input_Security & Surveillance_Display,Auxiliary Input,No,No,No
+585516261474563,Attached Antenna_Security & Surveillance_Display,Attached Antenna,No,No,No
+585516418936875,Dual Band Technology_Security & Surveillance_Display,Dual Band Technology,No,No,No
+585516512098370,Weather Resistant_Security & Surveillance_Display,Weather Resistant,No,No,No
+585516677964615,ETL Listed_Security & Surveillance_Display,ETL Listed,No,No,No
+585516774146722,Plug-In_Security & Surveillance_Display,Plug-In,No,No,No
+585516926463478,Z-Wave_Security & Surveillance_Display,Z-Wave_Security & Surveillance_Display,No,No,No
+585517067223761,Wall Mountable_Security & Surveillance_Display,Wall Mountable,No,No,No
+585517185175104,High Dynamic Range (HDR)_Security & Surveillance_Display,High Dynamic Range (HDR),No,No,No
+585517309007773,3D Technology_Security & Surveillance_Display,3D Technology,No,No,No
+585517433100832,Curved Screen_Security & Surveillance_Display,Curved Screen,No,No,No
+585517577082610,Digital Tuner_Security & Surveillance_Display,Digital Tuner,No,No,No
+585517697971489,Sleep Timer_Security & Surveillance_Display,Sleep Timer,No,No,No
+585519617644952,Z-Wave_Security & Surveillance_Display 2,Z-Wave,No,No,No
+586305484591607,Cushioning_D_Bikes,Cushioning,Yes,No,No
+586309474917285,Adjustment_D_Bikes,Adjustment,Yes,No,No
+586310748344420,Axle_D_Bikes,Axle,Yes,No,No
+586312126345097,Brake Mount_D_Bikes,Brake Mount,Yes,No,No
+586326896507634,Max Tire Width_D_Bikes,Max Tire Width,Yes,No,No
+586328380841268,Spring_D_Bikes,Spring,Yes,No,No
+586329610166033,Steerer_D_Bikes,Steerer,Yes,No,No
+586330227216508,Travel_D_Bikes,Travel,Yes,No,No
+586331197406512,Clamp_D_Bikes,Clamp,Yes,No,No
+586332195940796,Clamp Height_D_Bikes,Clamp Height,Yes,No,No
+586333730968546,Lengths_D_Bikes,Lengths,Yes,No,No
+586335640162221,Steerer Material_D_Bikes,Steerer Material,Yes,No,No
+586339885288834,Dimensions_D_Bikes,Dimensions,Yes,No,No
+586340610417011,Rise_D_Bikes,Rise,Yes,No,No
+586341406595121,Steerer Diameter_D_Bikes,Steerer Diameter,Yes,No,No
+586342009392417,Rake_D_Bikes,Rake,Yes,No,No
+586343608568020,Diameter_D_Bikes,Diameter,Yes,No,No
+586344160861654,Stack Height_D_Bikes,Stack Height,Yes,No,No
+586344943395179,Compatibility_D_Bikes,Compatibility,Yes,No,No
+586346442566868,Number of Links_D_Bikes,Number Of Links,Yes,No,No
+586346978013450,Size_D_Bikes,Size,Yes,No,No
+586347951876307,Size 1_D_Bikes,Size 1,Yes,No,No
+586348518007584,Size 2_D_Bikes,Size 2,Yes,No,No
+586348916507493,Size 3_D_Bikes,Size 3,Yes,No,No
+586353094648686,Bolt Circle Diameter_D_Bikes,Bolt Circle Diameter,Yes,No,No
+586353891786794,Ring Material_D_Bikes,Ring Material,Yes,No,No
+586354588917419,Rings_D_Bikes,Rings,Yes,No,No
+586355209144506,Teeth_D_Bikes,Teeth,Yes,No,No
+586356150089465,Bolt Pattern_D_Bikes,Bolt Pattern,Yes,No,No
+586357967988578,Adjustments_D_Bikes,Adjustments,Yes,No,No
+586358544170785,Float_D_Bikes,Float,Yes,No,No
+586359238486486,Shoe Compatibility_D_Bikes,Shoe Compatibility,Yes,No,No
+586360153334193,Bend_D_Bikes,Bend,Yes,No,No
+586361899107039,Drop_D_Bikes,Drop,Yes,No,No
+586362359008735,Reach_D_Bikes,Reach,Yes,No,No
+586363235555505,Length_D_Bikes,Length,Yes,No,No
+586363693584712,Sweep_D_Bikes,Sweep,Yes,No,No
+586364321573330,Clamp Width_D_Bikes,Clamp Width,Yes,No,No
+586365097718557,Capacity_D_Bikes,Capacity,Yes,No,No
+586365655437269,Max Cog_D_Bikes,Max Cog,Yes,No,No
+586366478827782,Max Front Difference_D_Bikes,Max Front Difference,Yes,No,No
+586366915532008,Min Cog_D_Bikes,Min Cog,Yes,No,No
+586367431076875,Spring Type_D_Bikes,Spring Type,Yes,No,No
+586367995184029,Max Chainring_D_Bikes,Max Chainring,Yes,No,No
+586368345803014,Fluid Type_D_Bikes,Fluid Type,Yes,No,No
+586368770943229,Mount_D_Bikes,Mount,Yes,No,No
+586369480914114,Pad Type_D_Bikes,Pad Type,Yes,No,No
+586370431052197,Rotor Size_D_Bikes,Rotor Size,Yes,No,No
+586374195702852,Pivot_D_Bikes,Pivot,Yes,No,No
+586374557199847,Hub_D_Bikes,Hub,Yes,No,No
+586375015314393,Lacing Pattern_D_Bikes,Lacing Pattern,Yes,No,No
+586375439194949,Rim Height_D_Bikes,Rim Height,Yes,No,No
+586376073281615,Rim Width_D_Bikes,Rim Width,Yes,No,No
+586376767171704,Skewers Included_D_Bikes,Skewers Included,Yes,No,No
+586377341439736,Spacing_D_Bikes,Spacing,Yes,No,No
+586378799128874,Spoke Count_D_Bikes,Spoke Count,Yes,No,No
+586379273282237,Spokes_D_Bikes,Spokes,Yes,No,No
+586379724847684,Tire Size_D_Bikes,Tire Size,Yes,No,No
+586380092930400,Tire Type_D_Bikes,Tire Type,Yes,No,No
+586380831323289,Disc Compatible_D_Bikes,Disc Compatible,Yes,No,No
+586381495384213,Bearing Type_D_Bikes,Bearing Type,Yes,No,No
+586381926367989,Holes_D_Bikes,Holes,Yes,No,No
+586382382579906,Radial Lace_D_Bikes,Radical Lace,Yes,No,No
+586383168211203,Compatibility_D_Bikes,Compatibiity,Yes,No,No
+586395903874953,Valve Type_D_Bikes,Valve Type,Yes,No,No
+586397223096169,Color_Tablet Cases&Sleeves_Display,Color,No,Yes,Yes
+586398683376914,Material,Material_Tablet Cases&Sleeves_Display,Yes,No,No
+586401502882672,Brand Compatibility_Tablet Cases&Sleeves_Display,Brand Compatibility,Yes,No,No
+586402772696828,Model Compatibility_Tablet Cases&Sleeves_Display,Model Compatibility,Yes,No,No
+586407536300101,Hiking & Camping_D_Cooler Type,Cooler Type,No,No,No
+586407919485409,Hiking & Camping_D_Cooler Volume Capactiy,Cooler Volume Capactiy,Yes,No,No
+586408038921029,Saddle Cover_D_Bikes,Saddle Cover,Yes,No,No
+586408298650127,Hiking & Camping_D_Cooler Can Capacity,Cooler Can Capacity,No,No,No
+586409996019726,Saddle Rail_D_Bikes,Saddle Rail,Yes,No,No
+586410233903923,Hiking & Camping_D_Tent Shape,Tent Shape,No,No,No
+586410689765787,Hiking & Camping_F_Temperature Rating Tent,Temperature Rating,No,No,Yes
+586411263424585,Hiking & Camping_D_Tent Door Count,Number Of Doors,No,No,No
+586412155503713,Material_D_Bikes,Material,Yes,No,No
+586412423097235,Hiking & Camping_D_Assembled Dimensions,Assembled Dimensions,Yes,No,No
+586412763784227,Hiking & Camping_D_Packed Dimensions,Packed Dimensions,Yes,No,No
+586413474476905,Hiking & Camping_FF_Recommended Use,Recommended Use,No,No,Yes
+586413524575088,Bottom Bracket Compatibility_D_Bikes,Bottom Bracket Compatibility,Yes,No,No
+586418066624346,Hiking & Camping_D_Weight Capacity,Weight Capacity,Yes,No,No
+586476222731497,Interior Length_Camera Bags_Display,Interior Length,Yes,No,No
+586477018874208,Interior Width_Camera Bags_Display,Interior Width,Yes,No,No
+586477309758465,Interior Height_Camera Bags_Display,Interior Height,Yes,No,No
+586477609981156,Exterior Length_Camera Bags_Display,Exterior Length,Yes,No,No
+586477884368082,Exterior Width_Camera Bags_Display,Exterior Width,Yes,No,No
+586478204053712,Exterior Height_Camera Bags_Display,Exterior Height,Yes,No,No
+586478478730753,Exterior Material_Camera Bags_Display,Exterior Material,Yes,No,No
+586478768920611,Interior Material_Camera Bags_Display,Interior Material,Yes,No,No
+586480766252048,Weight_Camera Bags_Display,Weight,Yes,No,No
+586513479278400,Number of Beaters,Number Of Beaters,Yes,No,No
+586513884992152,Number of Speeds,Number Of Speeds,Yes,No,No
+586514185490924,Bowl Capacity,Bowl Capacity,Yes,No,No
+586514548005540,Weight - ALL,Weight,Yes,No,No
+586514847521424,Material,Material,Yes,No,No
+586515110016897,Detachable Mixer 2,Detachable Mixer,Yes,No,No
+586534845072893,Clamp Diameter_D_Bikes,Clamp Diameter,Yes,No,No
+586539277087057,Electronic Device Buttons_Display_Free Text,Buttons,Yes,No,No
+586540288098330,Electronic Security Features_Display_Free Text,Security Features,Yes,No,No
+586544754361066,Wireless Encryption Type,Encryption Type(s),Yes,No,No
+586545467597640,Wireless Multi-band Type,Multi-band Type,Yes,No,No
+586546217023668,Networking_Number of Antennas_Display,Number Of Antennas,No,No,No
+586549626479011,Network Range_Electronics_Display,Wireless Range,Yes,No,No
+586551137286310,Networking Device_Firewall Technology Types,Firewall Type(s),Yes,No,No
+586553829848710,Number of WAN Ports_Display,Number Of WAN Ports,No,No,No
+586554432483392,Number of LAN Ports_Display,Number Of LAN Ports,No,No,No
+586555515647415,Device System Requirements,System Requirements,Yes,No,No
+586558733589652,Networking Device_Range Extension Feature,Range Extender,No,No,No
+586559902374950,Router Features,Router Features,No,No,Yes
+586566079234362,Memory Card Product Type,Card Type,No,No,Yes
+586569143959024,SD Association Speed Class,Speed Class Rating,No,No,Yes
+586573509433062,Electronic Device_Durability Features_Display,Durability Features,No,No,No
+586574100225407,Memory Card_External Write Protection Switch_Display,External Write Protect Switch,No,No,No
+586577187944137,Wireless Enabled_Electronics_Display,Wireless Enabled,No,No,Yes
+586588436104911,Camera and Camcorder Compatibility,Camera and Camcorder Compatibility,Yes,No,No
+586591117645541,Maximum Height_Tripods_Display_FF,Maximum Height,Yes,No,No
+586591744110174,Minimum Height_Tripods_Display,Minimum Height,Yes,No,No
+586592900504830,Device Weight Limit_Electronics_Display_lbs,Weight Capacity,Yes,No,No
+586593925568210,Folded Length_Display,Folded Length,Yes,No,No
+586595970319307,Number of Legs_Electronic Accessories_Display,Number Of Legs,No,No,No
+586596499843764,Head Feature_Tripods_Display,Head Feature,Yes,No,No
+586603653021076,Cable_Material_Display,Material,Yes,No,No
+586612547393734,Lock Type_Security Locks_Display,Lock Type,No,No,Yes
+586613575932248,Number of Keys_Security Devices_Display,Number Of Keys,No,No,No
+586614704126506,Security Lock Device Compatibility_Display,Device Compatibility,Yes,No,No
+586621487441416,Built-in Microphone_Display,Built-in Microphone,No,No,No
+586622444846012,Camera Focus Type,Focus Type,Yes,No,No
+586626652227817,Video Resolution_Camera_Display,Video Resolution,Yes,No,No
+586627684979286,Image Resolution,Image Resolution,Yes,No,No
+586629421192358,Maximum Video Frame Rate_Display,Maximum Video Frame Rate,Yes,No,No
+586630133180518,High Definition_Camera_Display,High Definition,No,No,No
+586632495028131,Device Interface Type_Display,Interface Type,Yes,No,No
+586634507589979,Webcam_Features_Display,Features,No,No,No
+588907468914353,Ply Count_D_Standard Skateboards & Longboards,Ply Count,Yes,No,No
+588908828647377,Trucks_D_Standard Skateboards & Longboards,Trucks,Yes,No,No
+588911068755857,Wheel Hardness_D_Standard Skateboards & Longboards,Wheel Hardness,Yes,No,No
+588912403174185,Bearings_D_Standard Skateboards & Longboards,Bearings,Yes,No,No
+588913676227220,Grip Tape_D_Standard Skateboards & Longboards,Grip Tape,Yes,No,No
+588939704281961,Wheel Diameter_D_Standard Skateboards & Longboards,Wheel Diameter,Yes,No,No
+589046967377901,Waterproof_D_Bicycle Accessories,Waterproof,Yes,No,No
+589047374756388,Dimensions_D_Bicycle Accessories,Dimensions,Yes,No,No
+589053628929689,Mounting_D_Bicycle Accessories,Mounting,Yes,No,No
+589055082574547,Pump Type_D_Bicycle Accessories,Pump Type,Yes,No,No
+589055800483180,Max Psi_D_Bicycle Accessories,Max Psi,Yes,No,No
+589056941070117,Gauge_D_Bicycle Accessories,Gauge,Yes,No,No
+589057422910240,Lock Style_D_Bicycle Accessories,Lock Style,Yes,No,No
+589057885741970,Lock Type_D_Bicycle Accessories,Bicycle Accessories,Yes,No,No
+589058257980709,Lock Thickness_D_Bicycle Accessories,Lock Thickness,Yes,No,No
+589059186564264,Liquid Capacity_D_Bicycle Accessories,Liquid Capacity,Yes,No,No
+589061056704072,Bottle Opening_D_Bicycle Accessories,Bottle Opening,Yes,No,No
+589061370033791,Fender Type_D_Bicycle Accessories,Fender Type,Yes,No,No
+589062538674821,Number of HDMI Inputs_Display,Number Of HDMI Inputs,No,No,Yes
+589063973888954,Audio_Channels_Display,Audio Channels,No,No,Yes
+589065762671581,Receiver Connectivity_Facet Filter,Wireless Connectivity,No,No,Yes
+589066387683134,Bottle Cap_D_Bicycle Accessories,Bottle Cap,Yes,No,No
+589067004944169,Bluetooth Enabled_Display,Bluetooth Enabled,No,No,No
+589067908593755,Number of Auxillary Inputs_Display,Number Of Auxillary Inputs,No,No,Yes
+589067971499944,Output Power per Channel_Display,Output Power per Channel,No,No,No
+589068274726161,Number of USB Inputs_Display,Number Of USB Inputs,No,No,Yes
+589068957917500,Built-In HD Audio Decoders_Display,Built-In HD Audio Decoders,No,No,Yes
+589069428744234,Ingram_AwardsYear,Award Year,Yes,No,No
+589069471073701,Streaming Services Supported_Display,Streaming Services Supported,No,No,Yes
+589070200398107,Ingram_AwardCode,Award Type,Yes,No,No
+589070384626079,AV Additional Features_Display,Additional Features,No,No,Yes
+589071304955351,4K Ultra HD Compatible_Display,4K Ultra HD Compatible,No,No,No
+589072124802497,Number of HDMI Outputs_Display,Number Of HDMI Outputs,No,No,Yes
+589073033057384,BPA Free_D_Bicycle Accessories,BPA Free,Yes,No,No
+589073889294119,Insulated_D_Bicycle Accessories,Insulated,Yes,No,No
+589075915389639,Headphone Jack_Display,Headphone Jack,No,No,No
+589076245771791,Speaker A/B Switching_Display,Speaker A/B Switching,No,No,No
+589076479610149,Number of Audio Zones_Display,Number Of Audio Zones,No,No,No
+589076831017129,Total Harmonic Distortion_Display,Total Harmonic Distortion,No,No,No
+589077073488740,Minimum Impedance_Display,Minimum Impedance,No,No,No
+589077357514480,Receiver Type_Display,Receiver Type,No,No,No
+589077566977179,MP3 Player Compatible_Display,MP3 Player Compatible,No,No,No
+589077992624669,Multi-Room Audio_Display,Multi-Room Audio,No,No,No
+589078282684479,Satellite Radio Ready_Display,Satellite Radio Ready,No,No,No
+589078567906005,Number of AM Presets_Display,Number Of AM Presets,No,No,No
+589078783303922,Number of FM Presets_Display,Number Of FM Presets,No,No,No
+589079529233455,Receiver Input(s)_Display,Receiver Input(s),No,No,No
+589080504460441,Wi-Fi Enabled_Display,Wi-Fi Enabled,No,No,No
+589132685774902,Weight Capacity_D_Scooters,Weight Capacity,Yes,No,No
+589133218141219,Folded Dimensions_D_Scooters,Folded Dimensions,Yes,No,No
+589133621698988,Handle Height_D_Scooters,Handle Height,Yes,No,No
+589134217804387,Wheel Size_D_Scooters,Wheel Size,Yes,No,No
+589134766136858,Wheel Material_D_Scooters,Wheel Material,Yes,No,No
+589135734111709,Deck Length_D_Scooters,Deck Length,Yes,No,No
+589136137376211,Deck Width_D_Scooters,Deck Width,Yes,No,No
+589775111644468,Bead Type_D_Tires & Tubes,Bead Type,Yes,No,No
+589776114128245,Foldable_D_Tires & Tubes,Foldable,Yes,No,No
+589776898244368,TPI_D_Tires & Tubes,TPI,Yes,No,No
+589777255176326,Tread Type_D_Tires & Tubes,Tread Type,Yes,No,No
+589780821494509,Valve Length_D_Tires & Tubes,Valve Length,Yes,No,No
+589782244809238,Valve Stem Threaded_D_Tires & Tubes,Valve Stem Threaded,Yes,No,No
+589794106756673,Height Capacity_D_Kids' Tricycles,Height Capacity,Yes,No,No
+589794731835577,Gearing_D_Kids' Tricycles,Gearing,Yes,No,No
+589795859001703,Steering_D_Kids' Tricycles,Steering,Yes,No,No
+589796986617542,Brake System_D_Kids' Tricycles,Brake System,Yes,No,No
+589797515194516,Chain Driven_D_Kids' Tricycles,Chain Driven,Yes,No,No
+589805907277025,Seat Height_D_Kids' Tricycles,Seat Height,Yes,No,No
+589806609745686,Assembly Details_D_Kids' Tricycles,Assembly Details,Yes,No,No
+589823436308006,Bulb Type_D_Lights & Reflectors,Bulb Type,Yes,No,No
+589843182120524,Number of Bulbs_D_Lights & Reflectors,Number Of Bulbs,Yes,No,No
+589845426095592,Lumens_D_Lights & Reflectors,Lumens,No,No,No
+589846441783521,Rechargeable_D_Lights & Reflectors,Rechargeable,Yes,No,No
+589848972728504,Charge Time_D_Lights & Reflectors,Charge Time,Yes,No,No
+589850457963181,Battery Life_D_Lights & Reflectors,Battery Life,Yes,No,No
+589851170217454,Battery_D_Lights & Reflectors,Battery,Yes,No,No
+589877844134540,Fit Guide_D_Car Sports Racks,Fit Guide,Yes,No,No
+589878754092939,Sizes_D_Car Sports Racks,Sizes,Yes,No,No
+589879787288453,Gear Capacity_D_Car Sports Racks,Gear Capacity,Yes,No,No
+589939299764859,Thickness_D_Skateboard Parts,Thickness,Yes,No,No
+589939836241073,Hardness_D_Skateboard Parts,Hardness,Yes,No,No
+592370427791890,Floor Surface - ALL,Floor Surface,Yes,No,No
+592381579173666,Water Tank Capacity,Water Tank Capacity,Yes,No,No
+592389843291564,Heating Time,Heating Time,Yes,No,No
+592393311586746,Cord Length,Cord Length,Yes,No,No
+592474252399254,Warranty - ALL,Warranty,Yes,No,No
+592475575402717,Rows of Brushes,Rows Of Brushes,Yes,No,No
+592503540229704,Dust Pan Capacity,Dust Pan Capacity,Yes,No,No
+592521238422690,Voltage,Voltage,Yes,No,No
+592522490709329,Ventilation Fans_Voltage,Voltage,Yes,No,No
+592523953364681,Air Conditioners & Accessories_BTU Rating,BTUs,No,No,No
+594243185086968,Ladders_Weight_Display,Weight,Yes,No,No
+594243271733014,Ladders_Material_Display,Material,No,No,Yes
+594243373234285,Ladders_Load Weight Capacity_Display,Load Weight Capacity,Yes,No,No
+595037652856550,Smart Home Category,Smart Home Category,No,No,No
+595155025932163,Key Product Features_Electronics_FF,Key Features,No,No,Yes
+595160749213335,Number of Speakers_Display,Number Of Speakers,No,No,No
+595162236565267,Speaker Features_Display,Speaker Features,No,No,No
+595162708842854,Frequency Response_Display,Frequency Response,Yes,No,No
+595164198192409,Woofer Material_Display,Woofer Material,No,No,No
+595164540199711,Tweeter Material_Display,Tweeter Material,No,No,No
+595164840381747,Number of Woofers_Display,Number Of Woofers,No,No,No
+595165133096056,Number of Tweeters_Display,Number Of Tweeters,No,No,No
+595165407384265,Speaker Sensitivity_Display,Speaker Sensitivity,No,No,No
+595165631600746,Indoor or Outdoor Use_Display,Indoor or Outdoor Use,No,No,No
+595214818890737,AV_Memory_RAM_Display,Memory,No,No,Yes
+595215564346795,AV_Storage_Capacity_Display,Storage,No,No,Yes
+595216472914925,AV_Wi-Fi_Connectivity_Display,Wi-Fi Connectivity,No,No,Yes
+595217381760630,AV_Ethernet_Connectivity_Display,Ethernet Connectivity,No,No,Yes
+595218121157503,Built-In_Digital_Audio_Decoders_Display,Built-In Digital Audio Decoders,No,No,Yes
+595223638981559,AV_Operating_System_Display,Operating System,No,No,Yes
+595229773555305,AV_Output_Ports_Display,Output Ports,No,No,Yes
+595819622907368,Climbing Gear Material_D_Climbing Gear,Climbing Gear Material,Yes,No,No
+595821595128901,Recommended Use_FF_Climbing Gear,Recommended Use,No,No,Yes
+595824793467416,Weight_D_SportsOutdoors,Weight,Yes,No,No
+595827417425936,Dimensions_D_SportsOutdoors,Dimensions,Yes,No,No
+595831443827034,Material_D_SportsOutdoors,Material,Yes,No,No
+595833619178539,MaxLumens_D_Lights&Lanterns,Max Lumens,Yes,No,No
+595834421760480,BatteryType_D_Lights&Lanterns,Battery Type,No,No,No
+595834788545561,PowerSource_D_Lights&Lanterns,Power Source,No,No,No
+595835231929353,BulbType_D_Lights&Lanterns,Bulb Type,No,No,No
+595835678809938,WaterResistant_D_Lights&Lanterns,Water Resistant,No,No,No
+595837146623801,RechargableBattery_D_Lights&Lanterns,Rechargeable Battery,No,No,No
+595837577312322,BatteryIncluded_D_Lights&Lanterns,Battery Included,No,No,No
+595843169825490,Width_D_SportsOutdoors,Width,Yes,No,No
+595843455148966,Length_D_SportsOutdoors,Length,Yes,No,No
+595844382377226,Multiband Transmission Speed,Multiband Transmission Speed,Yes,No,No
+595844796919983,LiquidCapacity_D_Hydration,Liquid Capacity (fl. oz.),Yes,No,No
+595846092654095,BPAFree_D_Hydration,BPA Free,No,No,No
+595846705684081,Saws_Product Diameter_Display,Product Diameter,Yes,No,No
+595848027564728,Saws_Product Depth_Display,Product Depth,Yes,No,No
+595848214908991,Saws_Product Height_Display,Product Height,Yes,No,No
+595848350247274,Saws_Product Width_Display,Product Width,Yes,No,No
+595848503574105,Saws_Amperage_Display,Amperage (amps),Yes,No,No
+595848725412894,Saws_Batteries Included_Display,Batteries Included,Yes,No,No
+595848874446272,Saws_Bevel Type_Display,Bevel Type,Yes,No,No
+595849124956140,Saws_Dust Collection Type_Display,Dust Collection Type,Yes,No,No
+595849283181034,Saws_Keyless_Keyed Blade_Change_Display,Keyless/keyed Blade Change,Yes,No,No
+595849444849352,Saws_Maximum Cutting Thickness_Display,Maximum Cutting Thickness (in.),Yes,No,No
+595849592444270,Saws_Weight_Display,Weight,Yes,No,No
+595849653272258,BladeLength_D_Knives&Tools,Blade Length,Yes,No,No
+595849715907276,Saws-Maximum Speed_Display,Maximum Speed (rpm),Yes,No,No
+595850545535552,BladeEdge_D_Knives&Tools,Blade Edge,No,No,No
+595850883936581,BladeType_D_Knives&Tools,Blade Type,No,No,No
+595854093014153,Height_D_SportsOutdoors,Height,Yes,No,No
+595957672389636,BearResistant_D_CampKitchen,Bear Resistant,No,No,No
+595958056587311,MadeInTheUSA_D_CampKitchen,Made in the USA,No,No,No
+595958407043075,Wheeled_D_CampKitchen,Wheeled,No,No,No
+595958890850897,CoolerIceRetentionHours_D_CampKitchen,Cooler Ice Retention Hours,Yes,No,No
+595959916937595,CampCookwareType_D_CampKitchen,Camp Cookware Type,No,No,No
+595960295504842,CampingFoodType_D_CampKitchen,Camping Food Type,No,No,No
+595960759191704,Dishes&FoodStorageType_D_CampKitchen,Dishes & Food Storage Type,No,No,No
+595961130409243,Stove&GrillType_D_CampKitchen,Stove & Grill Type,No,No,No
+595961545677019,Stove/GrillFuelType_D_CampKitchen,Stove/Grill Fuel Type,No,No,No
+595962098537613,Stove/GrillNumberofBurners_D_CampKitchen,Stove/Grill Number Of Burners,Yes,No,No
+595962582025336,Stove/GrillCookingSpace_D_CampKitchen,Stove/Grill Cooking Space (sq. in.),Yes,No,No
+595962961074541,Stove/GrillBTU's_D_CampKitchen,Stove/Grill BTU's,Yes,No,No
+595963366008549,TravelMug&CupType_D_CampKitchen,Travel Mug & Cup Type,No,No,No
+595963670226624,UtensilType_D_CampKitchen,Utensil Type,No,No,No
+595969160013610,Radial Lace_D_Bikes,Radial Lace,Yes,No,No
+595982232392223,Power_D_Fishing,Power,Yes,No,No
+595982438365322,Pieces_D_Fishing,Pieces,Yes,No,No
+595982824351557,Line Weight_D_Fishing,Line Weight,Yes,No,Yes
+595983012556400,Lure Weight_D_Fishing,Lure Weight,Yes,No,No
+595983208609553,Action_D_Fishing,Action,Yes,No,No
+595990919847074,Weight Capacity_D_SportsOutdoors,Weight Capacity,Yes,No,No
+595991551552313,Seat Height_D_SportsOutdoors,Seat Height,Yes,No,No
+595991911597826,Platform Dimensions_D_SportsOutdoors,Platform Dimensions,Yes,No,No
+595992273612257,Seasons_FF_Tents,Seasons,No,No,Yes
+595992309146990,Seat Dimensions_D_SportsOutdoors,Seat Dimensions,Yes,No,No
+595992906951246,Minimum Tree Size_D_SportsOutdoors,Minimum Tree Size,Yes,No,No
+595993485141973,TentWeight_FF_Tents,Weight,No,No,Yes
+595993580020162,Backrest Dimensions_D_SportsOutdoors,Backrest Dimensions,Yes,No,No
+595994075299380,Ladder Width_D_SportsOutdoors,Ladder Width,Yes,No,No
+595995444960398,TentMaterial_D_Tents,Tent Material,Yes,No,No
+595995752979239,PoleMaterial_D_Tents,Pole Material,Yes,No,No
+596001471486130,Ultralight_D_Tents,Ultralight,No,No,No
+596002441073200,InsectRepellent_D_Tents,Insect Repellent,No,No,No
+596003031492946,IncludesCarryBag_D_Tents,Includes Carry Bag,No,No,No
+596003356044375,Waterproof_D_Camping,Waterproof,No,No,No
+596003672017551,Inflatable_D_Tents,Inflatable,No,No,No
+596003943219957,IncludesVestibule_D_Tents,Includes Vestibule,No,No,No
+596004221130324,IncludesGearLoft_D_Tents,Includes Gear Loft,No,No,No
+596004663710050,IncludesRainfly_D_Tents,Includes Rainfly,No,No,No
+596005030095302,IncludesRoomDivider_D_Tents,Includes Room Divider,No,No,No
+596005342111121,FastPitch_D_Tents,Fast Pitch,No,No,No
+596005986319851,FloorDimensions_D_Tents,Floor Dimensions,Yes,No,No
+596006273122835,FloorArea_D_Tents,Floor Area,Yes,No,No
+596007346340882,Size_D_SportsOutdoors,Size,Yes,No,No
+596007591511976,Retrieve_D_Fishing,Retrieve,Yes,No,No
+596007939143353,PeakHeight_D_Tents,Peak Height,Yes,No,No
+596008045020483,Gear Ratio_D_Fishing,Gear Ratio,Yes,No,No
+596008253772855,NumberofPoles_D_Tents,Number Of Poles,No,No,No
+596008412661761,Line Capacity_D_Fishing,Line Capacity,Yes,No,No
+596008748976971,Braid Capacity_D_Fishing,Braid Capacity,Yes,No,No
+596009098410208,Bearings_D_SportsOutdoors,Bearings,Yes,No,No
+596009376092901,Max Drag_D_Fishing,Max Drag,Yes,No,No
+596009685576094,Recovery_D_Fishing,Recovery,Yes,No,No
+596017074145323,Caliber/Gauge_D_SportsOutdoors,Caliber/Gauge,Yes,No,No
+596017655455472,Battery Requirements_D_SportsOutdoors,Battery Requirements,Yes,No,No
+596018043875091,Feed Capacity_D_SportsOutdoors,Feed Capacity,Yes,No,No
+596018484975246,Fill Height_D_SportsOutdoors,Fill Height,Yes,No,No
+596022883401195,Run Time_D_SportsOutdoors,Run Time,Yes,No,No
+596023237300971,Shoe Size_D_SportsOutdoors,Shoe Size,Yes,No,No
+596023583603896,Chest Measurement_D_SportsOutdoors,Chest Measurement,Yes,No,No
+596023839345916,Hip Measurement_D_SportsOutdoors,Hip Measurement,Yes,No,No
+596024112889497,Thigh Measurement_D_SportsOutdoors,Thigh Measurement,Yes,No,No
+596024471678801,Inseam Measurement_D_SportsOutdoors,Inseam Measurement,Yes,No,No
+596024706406905,Front Rise_D_SportsOutdoors,Front Rise,Yes,No,No
+596025019669024,Back Rise_D_SportsOutdoors,Back Rise,Yes,No,No
+596025444427759,Foldable_D_CampingFurniture,Foldable,No,No,No
+596025667374683,CupHolder_D_CampingFurniture,Cup Holder,No,No,No
+596025925905082,ArmRests_D_CampingFurniture,Arm Rests,No,No,No
+596026137591193,Reclining_D_CampingFurniture,Reclining,No,No,No
+596026490244417,FrameMaterial_D_CampingFurniture,Frame Material,Yes,No,No
+596027291229902,SeatMaterial_D_CampingFurniture,Seat Material,Yes,No,No
+596027417777873,Height_D_SportsOutdoors,Height,Yes,No,No
+596028213353994,OverallHeight_D_CampingFurniture,Overall Height,Yes,No,No
+596028540254060,OverallWidth_D_CampingFurniture,Overall Width,Yes,No,No
+596028795668081,Megapixel_D_SportsOutdoors,Megapixel,Yes,No,No
+596029125100453,Power_D_SportsOutdoors,Power,Yes,No,No
+596030500079865,OverallDepth_D_CampingFurniture,Overall Depth,Yes,No,No
+596030506099625,Refine By Type_FF_GameTrailCamera,Refine By Type,Yes,No,No
+596030747866381,FoldedHeight_D_CampingFurniture,Folded Height,Yes,No,No
+596030977552009,FoldedWidth_D_CampingFurniture,Folded Width,Yes,No,No
+596031292615570,FoldedDepth_D_CampingFurniture,Folded Depth,Yes,No,No
+596031642011835,SeatHeight_D_CampingFurniture,Seat Height,No,No,No
+596031927991705,SeatWidth_D_CampingFurniture,Seat Width,Yes,No,No
+596032192556290,SeatDepth_D_CampingFurniture,Seat Depth,Yes,No,No
+596034923157403,TableTopMaterial_D_CampingFurniture,Table Top Material,Yes,No,No
+596036790381925,Exterior Dimensions_D_SportsOutdoors,Exterior Dimensions,Yes,No,No
+596037192635781,Interior Dimensions_D_SportsOutdoors,Interior Dimensions,Yes,No,No
+596040293682893,Quantity_D_SportsOutdoors,Quantity,Yes,No,No
+596040536168121,Model_D_SportsOutdoors,Model,Yes,No,No
+596045711412126,CanopyMaterial_D_CampingShelter,Canopy Material,Yes,No,No
+596046359455534,RecommendedUse_D_CampingShelters,Recommended Use,No,No,No
+596046737204420,ShelterCapacity_D_CampingShelter,Shelter Capacity,No,No,No
+596047223579212,FloorDimensions_D_CampingShelter,Floor Dimensions,Yes,No,No
+596047261737330,Case Types_FF_SportsOutdoors,Case Type,Yes,No,Yes
+596048168321064,Open Dimensions_D_SportsOutdoors,Open Dimensions,Yes,No,No
+596048416233132,NumberofDoors_D_CampingShelter,Number Of Doors,Yes,No,No
+596048621882668,Closed Dimensions_D_SportsOutdoors,Closed Dimensions,Yes,No,No
+596048933971898,FloorArea_D_CampingShelter,Floor Area,Yes,No,No
+596049618937740,PeakHeight_D_CampingFurniture,Peak Height,Yes,No,No
+596049918728594,Waist Size_D_SportsOutdoors,Waist Size,Yes,No,No
+596050077044172,NumberofPoles_D_Camping,Number Of Poles,Yes,No,No
+596050365627213,Fit Description_D_SportsOutdoors,Fit Description,Yes,No,No
+596050609498677,PoleMaterial_D_CampingShelter,Pole Material,No,No,No
+596051638165506,Season_D_CampingShelter,Season,No,No,Yes
+596052040687209,FrameMaterial_D_CampingShelter,Frame Material,Yes,No,No
+596054858244134,FootprintIncluded_D_Camping,Footprint Included,No,No,No
+596055184099716,FreeStanding_D_CampingShelter,Free Standing,No,No,No
+596055276728969,Sizes_D_SportsOutdoors,Sizes,Yes,No,No
+596055398161240,UVProtection_D_CampingShelter,UV Protection,No,No,No
+596055589417482,Adjustable Range_D_SportsOutdoors,Adjustable Range,Yes,No,No
+596058563046604,Jaw Style_D_SportsOutdoors,Jaw Style,Yes,No,No
+596062003397707,Price_V_Gift Cards,Price,No,Yes,No
+596062601891978,Straightness Factor_D_SportsOutdoors,Straightness Factor,No,No,No
+596062873389348,Weight Tolerance_D_SportsOutdoors,Weight Tolerance,Yes,No,No
+596063491225965,Draw Weight_D_Hunting,Draw Weight,Yes,No,No
+596063740767231,Draw Length_D_Hunting,Draw Length,Yes,No,No
+596064037129379,Axle to Axle Length_D_Hunting,Axle to Axle Length,Yes,No,No
+596064318482416,Brace Height_D_Hunting,Brace Height,Yes,No,No
+596064795950409,Arrow Speed_D_Hunting,Arrow Speed,Yes,No,No
+596065148900428,Let Off_D_Hunting,Let Off,Yes,No,No
+596070730287635,Species_D_HuntingFishing,Species,Yes,No,No
+596071118946873,Call Type_D_Hunting,Call Type,Yes,No,No
+596072492599208,Battery Info_D_SportsOutdoors,Battery Info,Yes,No,No
+596075713914314,Power Stroke_D_Hunting,Power Stroke,Yes,No,No
+596076606267803,Shaft_D_Hunting,Shaft,Yes,No,No
+596077021231047,Nocks_D_Hunting,Nocks,Yes,No,No
+596077527900415,Cutting Diameter_D_Hunting,Cutting Diameter,Yes,No,No
+596078022029303,Objective Diameter_D_SportsOutdoors,Objective Diameter,Yes,No,No
+596078469078337,Scope Magnification_D_SportsOutdoors,Scope Magnification,Yes,No,No
+596079027370418,Tube Diameter_D_SportsOutdoors,Tube Diameter,Yes,No,No
+596079503349781,FOV_D_SportsOutdoors,FOV,Yes,No,No
+596079755909626,Eye Relief_D_SportsOutdoors,Eye Relief,Yes,No,No
+596080095257755,Finish_D_SportsOutdoors,Finish,Yes,No,No
+596651633629195,MattressSize_D_CampBedding,Air Mattress Size,No,No,No
+596654958987175,BunkBed_D_CampBedding,Bunk Bed,No,No,No
+596655549117285,BuiltInPump_D_CampBedding,Built In Pump,No,No,No
+596657614400051,AutoInflate_D_CampBedding,Auto Inflate,No,No,No
+596657930023551,RepairKitIncluded_D_CampBedding,Repair Kit Included,No,No,No
+596658660257365,PumpIncluded_D_CampBedding,Pump Included,No,No,No
+596659079618556,PunctureResistant_D_CampBedding,Puncture Resistant,No,No,No
+596659831794104,HammockSize_D_CampBedding,Hammock Size,No,No,No
+596660240150036,SleepCapacity_D_CampBedding,Sleep Capacity,No,No,No
+596686660117724,SleepingPadType_D_CampBedding,Sleeping Pad Type,No,No,No
+596690956405714,OverallLength_D_CampBedding,Overall Length,Yes,No,No
+596691358153489,OverallWidth_D_CampBedding,Overall Width,Yes,No,No
+596691812962579,MattressThickness_D_CampBedding,Mattress Thickness,Yes,No,No
+596692156921434,OverallHeight_D_CampBedding,Overall Height,Yes,No,No
+596692790172317,FrameMaterial_D_CampBedding,Frame Material,Yes,No,No
+596693524212806,BaseMaterial_D_CampBedding,Base Material,Yes,No,No
+596693814287945,InflationTime_D_CampBedding,Inflation Time,Yes,No,No
+596694082944535,DeflationTime_D_CampBedding,Deflation Time,Yes,No,No
+596694361813385,InflatedDimensions_D_CampBedding,Inflated Dimensions,Yes,No,No
+596694900554775,DeflatedDimensions_D_CampBedding,Deflated Dimensions,Yes,No,No
+596695491787753,PumpType_D_CampBedding,Pump Type,No,No,No
+596695843614411,MattressChambers_D_CampBedding,Mattress Chambers,No,No,No
+596696656549126,TemperatureRating_D_CampBedding,Temperature Rating,Yes,No,No
+596696901167551,InsulationType_D_CampBedding,Insulation Type,Yes,No,No
+596697144034667,FillPower_D_CampBedding,Fill Power,Yes,No,No
+596712188128495,PillowFill_D_CampBedding,Pillow Fill,No,No,No
+596712476457894,InflatablePillow_D_CampBedding,Inflatable Pillow,No,No,No
+596713025895755,SleepingPadShape_D_CampBedding,Sleeping Pad Shape,No,No,No
+596713266135478,PackedSize_D_CampBedding,Packed Size,No,No,No
+596792180669301,Season_FF_SleepingBag,Season,No,No,Yes
+596792555175983,InsulationType_D_SleepingBag,Insulation Type,No,No,No
+596794752089993,IncludesDraftCollar_D_SleepingBags,Includes Draft Collar,No,No,No
+596795114415677,IncludesPockets_D_SleepingBags,Includes Pockets,No,No,No
+596795406114582,IncludesHood_D_SleepingBags,Includes Hood,No,No,No
+596795750950650,ZipperLocation_D_SleepingBags,Zipper Location,No,No,No
+596796127975804,SleepingCapacity_D_SleepingBags,Sleeping Capacity,No,No,No
+596796601513810,MaxUserHeight_D_SleepingBags,Max User Height (ft.),No,No,No
+596797603493214,InsulationMaterial_D_SleepingBags,Insulation Material,Yes,No,No
+596797862619463,OuterShellMaterial_D_SleepingBags,Outer Shell Material,Yes,No,No
+596798216213817,LiningMaterial_D_SleepingBags,Lining Material,Yes,No,No
+596798422100441,FillPower_D_SleepingBags,Fill Power,Yes,No,No
+596798838857904,FillWeight_D_SleepingBags,Fill Weight,Yes,No,No
+596799243879962,StuffSackDimensions_D_SleepingBags,Stuff Sack Dimensions,Yes,No,No
+596799598046666,ShoulderCircumference_D_SleepingBags,Shoulder Circumference,Yes,No,No
+596799984225409,HipCircumference_D_SleepingBags,Hip Circumference,Yes,No,No
+596800257585534,FootCircumference_D_SleepingBags,Foot Circumference,Yes,No,No
+596810353099285,FrameType_FF_Backpacks&Bags,Frame Type,No,No,Yes
+596810662073154,RecommendedUse_D_Backpacks&Bags,Recommended Use,No,No,No
+596811043603646,Capacity_D_Backpacks&Bags,Capacity (L),No,No,Yes
+596811645288358,TripLength_D_Backpacks&Bags,Trip Length,No,No,No
+596813198308417,ChildCarriers_D_Backpacks&Bags,Child Carriers,No,No,No
+596816225749691,ShoulderStrap_D_Backpacks&Bags,Shoulder Strap,No,No,No
+596816548030063,Pockets_D_Backpacks&Bags,Pockets,No,No,No
+596816759884524,RainCover_D_Backpacks&Bags,Rain Cover,No,No,No
+596817387261683,Reflective_D_Backpacks&Bags,Reflective,No,No,No
+596817696038426,LaptopSleeve_D_Backpacks&Bags,Laptop Sleeve,No,No,No
+596818717636852,AdjustableTorso_D_Backpacks&Bags,Adjustable Torso,No,No,No
+596818932101537,SleepingBagCompartment,Sleeping Bag Compartment,No,No,No
+596819221951826,IceAxeCarry_D_Backpacks&Bags,Ice Axe Carry,No,No,No
+596819610397692,TrekkingPoleCarry_D_Backpacks&Bags,Trekking Pole Carry,No,No,No
+596820033379654,AirflowPanel_D_Backpacks&Bags,Airflow Panel,No,No,No
+596828471379649,WaterBottleStorage_D_Backpacks&Bags,Water Bottle Storage,No,No,No
+596828742233704,SuspendedMeshBackPanel_D_Backpacks&Bags,Suspended Mesh Back Panel,No,No,No
+596828981298034,CompressionStraps_D_Backpacks&Bags,Compression Straps,No,No,No
+596829540435579,HydrationSleeve_D_Backpacks&Bags,Hydration Sleeve,No,No,No
+596829821308357,NumberofExteriorPockets_D_Backpacks&Bags,Number Of Exterior Pockets,Yes,No,No
+596830120153632,LoadingAccess_D_Backpack&Bags,Loading Access,No,No,No
+596830382886103,NumberofInteriorCompartments,Number Of Interior Compartments,Yes,No,No
+596830705236733,OuterMaterial_D_Backpacks&Bags,Outer Material,Yes,No,No
+596831954364326,FrameMaterial_D_Backpacks&Bags,Frame Material,Yes,No,No
+596832319287351,TorsoLength_D_Backpacks&Bags,Torso Length,Yes,No,No
+596832616407777,HipBeltSize_D_Backpacks&Bags,Hip Belt Size,No,No,No
+596945388683843,Camera Model_Display,Model,Yes,No,No
+597764849407032,Camera Features_Display,Features,No,No,No
+597764849533355,Camera Body/Kit_Display,Package Type,No,No,No
+597764849629757,Burst Mode_Display,Burst Mode (Max FPS),Yes,No,No
+597764849712699,Camera Focus_Display,Focus Type,No,No,No
+597764849800419,Camera Weight_Display,Weight,Yes,No,No
+597764849882613,Camera Battery Type_Display,Battery Type,No,No,No
+597764849980692,Camera Screen Resolution_Display,Screen Resolution,Yes,No,No
+597764850061990,Camera Screen Size_Display,Screen Size,Yes,No,No
+597764850196470,Camera Screen Type_Display,Screen Type,No,No,No
+597764850284746,Camera Viewfinder Type_Display,Veiwfinder Type,No,No,No
+597764850374026,Camera Port Type_Display,Port Type,No,No,No
+597764850475021,Camera Removable Media Type_Camera,Removable Media,No,No,No
+597764850569828,Camera Sensor Size_Display,Sensor Size,No,No,No
+597764850673488,Camera Sensor Type_Display,Sensor Type,No,No,No
+597764850765617,Camera Video Resolution_Display,Video Resolution,No,No,No
+597764851057733,Camera Depth of Waterproof_Display,Depth Of Waterproof,Yes,No,No
+597764851189583,Camera Image Processor_Display,Image Processor,No,No,No
+597764851366207,Camera Max ISO_Display,Max ISO,No,No,No
+597764851521216,Camera AF Points_Display,AF Points,Yes,No,No
+598596516618881,Works Well With,Works Well With,Yes,No,No
+601139537839011,10000079_Form Factor_Display,Form Factor,No,No,No
+601145850841671,10000079_Usage_Display,Usage,No,No,No
+601149320106499,10000079_Processor Main Features_Display,Processor Main Features,Yes,No,No
+601149652917270,10000079_Cache Per Processor_Display,Cache Per Processor,Yes,No,No
+601156336511918,mrclean_DiamondCertificate,Diamond Certificate,No,No,No
+601167317251287,10000079_Ethernet_Display,Ethernet,Yes,No,No
+601188401738930,Center Stone Cut,Center Stone Cut,No,No,No
+601221408238538,Camera Family_Display,Camera Family,Yes,No,No
+601254359818598,Camera Min. Focal Length_Display,Min. Focal Length,Yes,No,No
+601256380626579,Camera Max. Focal Length_Display,Max. Focal Length,Yes,No,No
+601258659392716,Camera Dimensions_Display,Dimensions,Yes,No,No
+601265944990102,Format_Blank Media_Display/Facet Filter,Format,No,No,Yes
+601266595687398,Capacity_Blank Media_Display/Facet Filter,Capacity,No,No,Yes
+601267010200199,Number of Discs _Blank Media_Display,Number Of Discs,Yes,No,No
+601267482072209,Write Speed_Blank Media_Display/Facet Filter,Write Speed,No,No,Yes
+601381562472992,Max Audio Capacity_Blank Media_Display,Max Audio Capacity,Yes,No,No
+601381865081400,Max Video Capacity_Blank Media_Display,Max Video Capacity,Yes,No,No
+601382347612521,Printable_Blank Media_Display,Printable,No,No,No
+601903313202866,10000079_CPU Type_Display / Variant,CPU Type,No,No,No
+601907811297654,10000079_L3 Cache Per CPU_Display,L3 Cache Per CPU,Yes,No,No
+601918794450458,10000079_Virtual Reality Ready_Display,Virtual Reality Ready,No,No,No
+601921004020437,10000079_Video Memory_Display,Video Memory,Yes,No,No
+601922468520602,10000079_Memory Slot_Display,Memory Slot,No,No,No
+601923590161043,10000079_SSD_Display / Variant,SSD,Yes,Yes,No
+601923843064263,10000079_HDD_Display / Variant,HDD,Yes,Yes,No
+601924075730129,10000079_HDD Interface_Display,HDD Interface,Yes,No,No
+601924437027831,10000079_HDD RPM_Display,HDD RPM,Yes,No,No
+601925334949220,10000079_Audio Features_Display,Audio Features,Yes,No,No
+601925871943835,10000079_LAN Speed_Display,LAN Speed,Yes,No,No
+601928888515557,10000079_WLAN_Display,WLAN,No,No,No
+601936809511555,10000079_Bluetooth_Display,Bluetooth,Yes,No,No
+601938358544661,10000079_Front USB_Display,Front USB,Yes,No,No
+601938657162251,10000079_Front Audio Ports_Display,Front Audio Ports,Yes,No,No
+601940251169331,10000079_Card Reader_Display,Card Reader,Yes,No,No
+601940564540326,10000079_Video Ports_Display,Video Ports,Yes,No,No
+601940790513540,10000079_Rear USB_Display,Rear USB,Yes,No,No
+601941008409667,10000079_RJ45_Display,RJ45,Yes,No,No
+601941217909197,10000079_Rear Audio Ports_Display,Rear Audio Ports,Yes,No,No
+602036414317516,Laptops_Number of Cores_Display,Number Of Cores,No,No,No
+602056890924159,10000079_Screen Size_Display,Screen Size,Yes,No,No
+604584866297295,CO2 Carbonator Capacity,CO2 Carbonator Capacity,Yes,No,No
+605557263676984,Electric Cookware_Minimum Temperature,Minimum Temperature,Yes,No,No
+605557590499572,ElectricCookware_MaximumTemperature,Maximum Temperature,Yes,No,No
+607045382470744,Fork Travel_D_Bikes,Fork Travel,Yes,No,No
+607046970761150,Headset Size_D_Bikes,Headset Size,Yes,No,No
+607050550871206,Gear Capacity_D_SportsOutdoors,Gear Capacity,Yes,No,No
+607051756105459,Cargo Volume_D_SportsOutdoors,Cargo Volume,Yes,No,No
+607052412539831,Depth_D_SportsOutdoors,Depth,Yes,No,No
+607053433567380,Number of Pockets_D_SportsOutdoors,Number Of Pockets,Yes,No,No
+607071111550305,Software_D_SportsOutdoors,Software,Yes,No,No
+607072080979629,Compatible Wheel Sizes_D_SportsOutdoors,Compatible Wheel Sizes,Yes,No,No
+607082274589475,Battery Power_D_SportsOutdoors,Battery Power,Yes,No,No
+607082695309870,Charging Time_D_SportsOutdoors,Charging Time,Yes,No,No
+607083452818454,Initial Volume_D_SportsOutdoors,Initial Volume,Yes,No,No
+607083844395883,Maximum Speed_D_SportsOutdoors,Maximum Speed,Yes,No,No
+607084861490896,Motor Power_D_SportsOutdoors,Motor Power,Yes,No,No
+607085516415235,Range_D_SportsOutdoors,Range,Yes,No,No
+607089722713018,Voltage_D_SportsOutdoors,Voltage,Yes,No,No
+607092121645230,Seating Capacity_D_SportsOutdoors,Seating Capacity,Yes,No,No
+607097016737347,Visor_D_SportsOutdoors,Visor,No,No,No
+607097354626846,Vents_D_SportsOutdoors,Vents,Yes,No,No
+607097805194947,MIPS_D_SportsOutdoors,MIPS,No,No,No
+607098956538386,Construction_D_SportsOutdoors,Construction,Yes,No,No
+607099729732325,Head Circumference_D_SportsOutdoors,Head Circumference,Yes,No,No
+607250404131141,Opening Type_FF_SportsOutdoors,Opening Type,Yes,No,No
+607251519257612,Frame_D_SportsOutdoors,Frame,Yes,No,No
+607253214096753,Cap Type_D_SportsOutdoors,Cap Type,Yes,No,No
+607271567503297,Straps_D_SportsOutdoors,Straps,Yes,No,No
+607276916760248,Lacing System_D_SportsOutdoors,Lacing System,Yes,No,No
+607277409236812,Cuff_D_SportsOutdoors,Cuff,Yes,No,No
+607281818831274,Style_D_SportsOutdoors,Style,Yes,No,No
+607282897429774,Shell Material_D_SportsOutdoors,Shell,Yes,No,No
+607290911728245,Pedal Type_D_SportsOutdoors,Pedal Type,Yes,No,No
+607291449424483,Cleat Design_D_SportsOutdoors,Cleat Design,Yes,No,No
+607299613245683,Projectors_Recommended_Usage,Recommended Usage,No,No,Yes
+607300097069364,Projectors_Projector_Features,Projector Features,No,No,Yes
+607300436788515,Projector_Max_Resolution,Maximum Resolution,No,No,Yes
+607300938618849,Projectors_Brightness,Brightness,No,No,Yes
+607303332364266,Boot Specs_D_SportsOutdoors,Boot Specs,Yes,No,No
+607304090750752,Projectors_Projetor_Display_Technology,Projector Display Technology,No,No,Yes
+607305323934059,Projector_Aspect_Ratio,Aspect Ratio,No,No,Yes
+607308093350589,Plate Info_D_SportsOutdoors,Plate Info,Yes,No,No
+607310700156211,Included Tools_D_SportsOutdoors,Included Tools,Yes,No,No
+607311291876149,Projectors_Throw_Ratio,Throw Ratio,Yes,No,No
+607314317848972,Projectors_Wireless_Connectivity,Wireless Connectivity,No,No,Yes
+607913129082702,Seatpost Diameter_D_SportsOutdoors,Seatpost Diameter,Yes,No,No
+607913352560162,Seatpost Length_D_SportsOutdoors,Seatpost Length,Yes,No,No
+607914084324723,Seatpost Clamp_D_SportsOutdoors,Seatpost Clamp,Yes,No,No
+607914479536953,Crank_D_SportsOutdoors,Crank,Yes,No,No
+607914686726631,Crank Length_D_SportsOutdoors,Crank Length,Yes,No,No
+607916216010897,Rim_D_SportsOutdoors,Rim,Yes,No,No
+607916483499911,Rim Strip_D_SportsOutdoors,Rim Strip,Yes,No,No
+607921174339493,Tire Specs_D_SportsOutdoors,Tire Specs,No,No,No
+607921402941673,Tube Specs_D_SportsOutdoors,Tube Specs,Yes,No,No
+607921880559053,Crank Arms_D_SportsOutdoors,Crank Arms,Yes,No,No
+607929196044506,Recommended Use_D_SportsOutdoors,Recommended Use,Yes,No,No
+607930586354508,Derailleur Type_D_SportsOutdoors,Derailleur Type,Yes,No,No
+607930983354256,Cage Length_D_SportsOutdoors,Cage Length,Yes,No,No
+607931293964746,Max Cog Size_D_SportsOutdoors,Max Cog Size,Yes,No,No
+607944620531942,Diameter_D_SportsOutdoors,Diameter,Yes,No,No
+607946232542943,ISO Tire Size_D_SportsOutdoors,ISO Tire Size,Yes,No,No
+607947606226263,Bar End_D_SportsOutdoors,Bar End,Yes,No,No
+607952191042724,Head Tube_D_SportsOutdoors,Head Tube,Yes,No,No
+607952450525250,Top Tube_D_SportsOutdoors,Top Tube,Yes,No,No
+607958458394101,Chainstay_D_SportsOutdoors,Chainstay,Yes,No,No
+607958937879387,Drop Out Size_D_SportsOutdoors,Drop Out Size,Yes,No,No
+607959264222142,Steer Tube Length_D_SportsOutdoors,Steer Tube Length,Yes,No,No
+607960165986820,Upsweep_D_SportsOutdoors,Upsweep_D_SportsOutdoors,Yes,No,No
+607960466033859,Backsweep_D_SportsOutdoors,Backsweep,Yes,No,No
+607960837924127,Steer Tube Diameter_D_SportsOutdoors,Steer Tube Diameter,Yes,No,No
+607961310946346,Handle Bar Diameter_D_SportsOutdoors,Handle Bar Diameter,Yes,No,No
+607961711793222,Spindle Length_D_SportsOutdoors,Spindle Length,Yes,No,No
+607962052078432,Spindle Interface_D_SportsOutdoors,Spindle Interface,Yes,No,No
+607962582711409,Sprocket Interface_D_SportsOutdoors,Sprocket Interface,Yes,No,No
+607967515289522,Brake Orientation_D_SportsOutdoors,Brake Orientation,Yes,No,No
+607967929419782,Brake Actuation_D_SportsOutdoors,Brake Actuation,Yes,No,No
+607996022249216,Disc Brake Caliper Mount_D_SportsOutdoors,Disc Brake Caliper Mount,Yes,No,No
+607996471661602,Disc Brake Rotor Size_D_SportsOutdoors,Disc Brake Rotor Size,Yes,No,No
+607997219296203,Interface_D_SportsOutdoors,Interface,Yes,No,No
+607998592120649,Shell Width_D_SportsOutdoors,Shell Width,Yes,No,No
+607999236532817,Spindle Diameter_D_SportsOutdoors,Spindle Diameter,Yes,No,No
+608003832178706,Brake Compatibility_D_SportsOutdoors,Brake Compatibility,Yes,No,No
+608004369714886,Cable Type_D_SportsOutdoors,Cable Type,Yes,No,No
+608004713971895,Cable Width_D_SportsOutdoors,Cable Width,Yes,No,No
+608005397447028,Bore Size_D_SportsOutdoors,Bore Size,Yes,No,No
+609797191846992,Networking Product Type,Product Type,No,No,Yes
+610472568303204,Paint Sprayers_Maximum Hose Length_Display,Maximum Hose Length,Yes,No,No
+610472745016199,Paint Sprayers_Product Depth_Display,Product Depth (in.),Yes,No,No
+610472853435601,Paint Sprayers_Product Height_Display,Product Height (in.),Yes,No,No
+610472960355006,Paint Sprayers_Product Width_Display,Product Width (in.),Yes,No,No
+610473066973736,Paint Sprayers_Accessories_Display,Accessories Included,Yes,No,No
+610473168600311,Paint Sprayers_Cycles Per Gallon_Display,Cycles Per Gallon,Yes,No,No
+610473273123137,Paint Sprayers_Flow rate_Display,Flow rate (gallons per min.),Yes,No,No
+610473374380171,Paint Sprayers_Horsepower_Display,Horsepower (hp),Yes,No,No
+610473488934656,Paint Sprayers_Number of Spray Settings_Display,Number Of Spray Settings,Yes,No,No
+610473594556344,Paint Sprayers_Operating Pressure_Display,Operating Pressure (psi),Yes,No,No
+610473727357819,Paint Sprayers_Paint Product Type_Display,Paint Product Type,Yes,No,No
+610473814533142,Paint Sprayers_Pressure Relief Valve_Display,Pressure Relief Valve,Yes,No,No
+610473939861493,Paint Sprayers_Product Weight_Display,Product Weight (lb.),Yes,No,No
+610474049497137,Paint Sprayers_Pump Type_Display,Pump Type,Yes,No,No
+610474172992763,Paint Sprayers_Roller Attachment_Display,Roller Attachment,Yes,No,No
+610746426951728,Water Filtration & Softeners_Filter Life,Filter Life,No,No,No
+615815689489087,Limb to Limb_D_SportsOutdoors,Limb to Limb,Yes,No,No
+615817052247253,String Length_D_SportsOutdoors,String Length,Yes,No,No
+619105354687248,Hook Size_D_SportsOutdoors,Hook Size,Yes,No,No
+619117321644720,Reticle_D_SportsOutdoors,Reticle,Yes,No,No
+619119466320402,Maximum Range_D_SportsOutdoors(Use This),Maximum Range,Yes,No,No
+619119917254684,Minimum Range_D_SportsOutdoors,Minimum Range,Yes,No,No
+619120339540921,Scan Mode_D_SportsOutdoors,Scan Mode,Yes,No,No
+619120620340273,Display_D_SportsOutdoors,Display,Yes,No,No
+619121471402507,Beam Divergence_D_SportsOutdoors,Beam Divergence,Yes,No,No
+619137020512097,Belt Size_D_SportsOutdoors,Belt Size,Yes,No,No
+619141480570063,Rod Capacity_D_SportsOutdoors,Rod Capacity,Yes,No,No
+619148040382748,Reel Weight_D_SportsOutdoors,Reel Weight,Yes,No,No
+619159613706213,Arrow Capacity_D_SportsOutdoors,Arrow Capacity,Yes,No,No
+619178360329674,Diving Depth_D_SportsOutdoors,Diving Depth,Yes,No,No
+619179648606970,Buoyancy_D_SportsOutdoors,Buoyancy,Yes,No,No
+619197253897808,Blade Length_D_SportsOutdoors,Blade Length,Yes,No,No
+619197670855878,Closed Length_D_SportsOutdoors,Closed Length,Yes,No,No
+619198394438685,Overall Length_D_SportsOutdoors,Overall Length,Yes,No,No
+619198554061381,Blade Thickness_D_SportsOutdoors,Blade Thickness,Yes,No,No
+619199327445998,Handle Material_D_SportsOutdoors,Handle Material,Yes,No,No
+619199754281669,Blade Type_D_SportsOutdoors,Blade Type,Yes,No,No
+619245762785641,Polarized_D_SportsOutdoors,Polarized,Yes,No,No
+619246108521539,UV Protection_D_SportsOutdoors,UV Protection,Yes,No,No
+619254215543282,Noise Reduction Rating_D_SportsOutdoors,Noise Reduction Rating,Yes,No,No
+619263816849978,Handle Length_D_SportsOutdoors,Handle Length,Yes,No,No
+619266271809946,Fletch Style_D_SportsOutdoors,Fletch Style,Yes,No,No
+619266637121129,Shaft Weight (GPI)_D_SportsOutdoors,Shaft Weight (GPI),Yes,No,No
+619955908502273,Blank Material_D_SportsOutdoors,Blank Material,Yes,No,No
+619958804379153,Packaging_D_SportsOutdoors,Packaging,Yes,No,No
+621030645265723,Fit Type,Fit Type,Yes,No,No
+621030645265724,Special Size,Special Size,Yes,No,No
+621030645265725,Ring Size,Ring Size,Yes,No,No
+621030645265726,Design,Design,Yes,No,No
+621030645265727,Package Type,Package Type,Yes,No,No
+621030645265728,Package Quantity,Package Quantity,Yes,No,No
+621030645265729,Conference Name,Conference Name,Yes,No,No
+621030645265730,Auto Part Position,Auto Part Position,Yes,No,No
+621030645265731,Overall Length,Overall Length,Yes,No,No
+621030645265732,Number of Items,Number Of Items,Yes,No,No
+621030645265733,Thread Size,Thread Size,Yes,No,No
+621030645265734,Thickness,Thickness,Yes,No,No
+621030645265735,Hand Orientation,Hand Orientation,Yes,No,No
+621030645265736,Outside Diameter,Outside Diameter,Yes,No,No
+621030645265737,Fabric Type,Fabric Type,Yes,No,No
+621030645265738,Item Package Quantity,Item Package Quantity,Yes,No,No
+621030645265739,Subscription Length,Subscription Length,Yes,No,No
+621030645265740,Part Number,Part Number,Yes,No,No
+621030645265741,Width,Width,Yes,No,No
+621030645265742,Cutting Diameter,Cutting Diameter,Yes,No,No
+621030645265743,Cutting Length,Cutting Length,Yes,No,No
+621030645265744,Platform,Platform,Yes,No,No
+621030645265745,Pitch,Pitch,Yes,No,No
+621030645265746,Offer Type,Offer Type,Yes,No,No
+621030645265747,Shape,Shape,Yes,No,No
+621030645265748,Inscribed Circle String,Inscribed Circle String,Yes,No,No
+621030645265749,Unit Count,Unit Count,Yes,No,No
+621030645265750,Shank Diameter,Shank Diameter,Yes,No,No
+621030645265751,Bore Diameter,Bore Diameter,Yes,No,No
+621030645265752,Nominal Inside Diameter,Nominal Inside Diameter,Yes,No,No
+621030645265753,Magnification Strength,Magnification Strength,Yes,No,No
+621030645265754,Range,Range,Yes,No,No
+621030645265755,Fastener Size,Fastener Size,Yes,No,No
+621030645265756,Connector Type,Connector Type,Yes,No,No
+621030645265757,Insert Size,Insert Size,Yes,No,No
+621030645265758,Pitch Diameter String,Pitch Diameter String,Yes,No,No
+621030645265759,Primary Stone Gem Type,Primary Stone Gem Type,Yes,No,No
+621030645265760,Washer Size,Washer Size,Yes,No,No
+621030645265761,Model Number,Model Number,Yes,No,No
+621030645265762,Metal Stamp,Metal Stamp,Yes,No,No
+621030645265763,Inside Diameter,Inside Diameter,Yes,No,No
+621030645265764,Load Capacity,Load Capacity,Yes,No,No
+621030645265765,Item Display Weight,Item Display Weight,Yes,No,No
+621030645265766,Gauge,Gauge,Yes,No,No
+621030645265767,Service plan term,Service plan term,Yes,No,No
+621030645265768,Lens Width,Lens Width,Yes,No,No
+621030645265769,System of Measurement,System Of Measurement,Yes,No,No
+621030645265770,Grip Size,Grip Size,Yes,No,No
+621030645265771,Item Display Length,Item Display Length,Yes,No,No
+621030645265772,Item Diameter,Item Diameter,Yes,No,No
+621030645265773,Tension Supported,Tension Supported,Yes,No,No
+621030645265774,Cap Type,Cap Type,Yes,No,No
+621030645265775,Model,Model,Yes,No,No
+621030645265776,Size per Pearl,Size per Pearl,Yes,No,No
+621030645265777,Total Diamond Weight,Total Diamond Weight,Yes,No,No
+621030645265778,Gem Type,Gem Type,Yes,No,No
+621030645265779,Overall Width,Overall Width,Yes,No,No
+621030645265780,Edition,Edition,Yes,No,No
+621030645265781,Cushion Style,Cushion Style,Yes,No,No
+621030645265782,Nominal Outside Diameter,Nominal Outside Diameter,Yes,No,No
+621030645265783,For Pipe Size,For Pipe Size,Yes,No,No
+621030645265784,Additional Features,Additional Features,Yes,No,No
+621030645265785,Band Size,Band Size,Yes,No,No
+621030645265786,Special Size Type,Special Size Type,Yes,No,No
+621030645265787,Display Height,Display Height,Yes,No,No
+621030645265788,Headband Color,Headband Color,Yes,No,No
+621030645265789,Head Diameter,Head Diameter,Yes,No,No
+621030645265790,Graduation Interval,Graduation Interval,Yes,No,No
+621030645265791,Wattage,Wattage,Yes,No,No
+621030645265792,Cutting width,Cutting width,Yes,No,No
+621030645265793,Bare Outside Diameter String,Bare Outside Diameter String,Yes,No,No
+621030645265794,Fits Hole Size,Fits Hole Size,Yes,No,No
+621030645265795,Temperature Rating,Temperature Rating,Yes,No,No
+621030645265796,Grip Type,Grip Type,Yes,No,No
+621030645265797,Compatible Fastener Description,Compatible Fastener Description,Yes,No,No
+621030645265798,Pipe Size,Pipe Size,Yes,No,No
+621030645265799,Pattern,Pattern,Yes,No,No
+621030645265800,Overall Height,Overall Height,Yes,No,No
+621030645265801,Line Weight,Line Weight,Yes,No,No
+621030645265802,Measuring Range,Measuring Range,Yes,No,No
+621030645265803,Lead Type,Lead Type,Yes,No,No
+621030645265804,Diameter,Diameter,Yes,No,No
+621030645265805,Electrical Connector Type,Electrical Connector Type,Yes,No,No
+621030645265806,Flex,Flex,Yes,No,No
+621030645265807,Input Range Description,Input Range Description,Yes,No,No
+621030645265808,Line Size,Line Size,Yes,No,No
+621030645265809,For Shaft Diameter,For Shaft Diameter,Yes,No,No
+621030645265810,Trade Size,Trade Size,Yes,No,No
+621030645265811,Mounting Distance String,Mounting Distance String,Yes,No,No
+621030645265812,Processor Description,Processor Description,Yes,No,No
+621030645265813,Hardware Platform,Hardware Platform,Yes,No,No
+621030645265814,Edge Style,Edge Style,Yes,No,No
+621030645265815,Resolution,Resolution,Yes,No,No
+621030645265816,Vehicle Speaker Size,Vehicle Speaker Size,Yes,No,No
+621030645265817,Number Of Shelves,Number Of Shelves,Yes,No,No
+621030645265818,Paper Size,Paper Size,Yes,No,No
+621030645265819,Leg Style,Leg Style,Yes,No,No
+621030645265820,Connectivity,Connectivity,Yes,No,No
+621030645265821,Maximum Size,Maximum Size,Yes,No,No
+621030645265822,Generation,Generation,Yes,No,No
+621030645265823,Disk Size,Disk Size,Yes,No,No
+621030645265824,Denomination,Denomination,Yes,No,No
+621030645265825,Loft,Loft,Yes,No,No
+621030645265826,Shaft Material,Shaft Material,Yes,No,No
+621030645265827,Grit Type,Grit Type,Yes,No,No
+621030645265828,Wire Diameter,Wire Diameter,Yes,No,No
+621030645265829,Roll Diameter String,Roll Diameter String,Yes,No,No
+621030645265830,Current Type,Current Type,Yes,No,No
+621030645265831,Closed Length String,Closed Length String,Yes,No,No
+621030645265832,Extended Length,Extended Length,Yes,No,No
+621030645265833,Platform for Display,Platform for Display,Yes,No,No
+621030645265834,Fit Type Variant,Fit Type,Yes,Yes,No
+621030645265835,Special Size Variant,Special Size,Yes,Yes,No
+621030645265836,Ring Size Variant,Ring Size,Yes,Yes,No
+621030645265837,Design Variant,Design,Yes,Yes,No
+621030645265838,Package Type Variant,Package Type,Yes,Yes,No
+621030645265839,Package Quantity Variant,Package Quantity,Yes,Yes,No
+621030645265840,Conference Name Variant,Conference Name,Yes,Yes,No
+621030645265841,Auto Part Position Variant,Auto Part Position,Yes,Yes,No
+621030645265842,Overall Length Variant,Overall Length,Yes,Yes,No
+621030645265843,Number of Items Variant,Number Of Items,Yes,Yes,No
+621030645265844,Thread Size Variant,Thread Size,Yes,Yes,No
+621030645265845,Thickness Variant,Thickness,Yes,Yes,No
+621030645265846,Hand Orientation Variant,Hand Orientation,Yes,Yes,No
+621030645265847,Outside Diameter Variant,Outside Diameter,Yes,Yes,No
+621030645265848,Fabric Type Variant,Fabric Type,Yes,Yes,No
+621030645265849,Item Package Quantity Variant,Item Package Quantity,Yes,Yes,No
+621030645265850,Subscription Length Variant,Subscription Length,Yes,Yes,No
+621030645265851,Part Number Variant,Part Number,Yes,Yes,No
+621030645265852,Width Variant,Width,Yes,Yes,No
+621030645265853,Cutting Diameter Variant,Cutting Diameter,Yes,Yes,No
+621030645265854,Cutting Length Variant,Cutting Length,Yes,Yes,No
+621030645265855,Platform Variant,Platform,Yes,Yes,No
+621030645265856,Pitch Variant,Pitch,Yes,Yes,No
+621030645265857,Offer Type Variant,Offer Type,Yes,Yes,No
+621030645265858,Shape Variant,Shape,Yes,Yes,No
+621030645265859,Inscribed Circle String Variant,Inscribed Circle String,Yes,Yes,No
+621030645265860,Unit Count Variant,Unit Count,Yes,Yes,No
+621030645265861,Shank Diameter Variant,Shank Diameter,Yes,Yes,No
+621030645265862,Bore Diameter Variant,Bore Diameter,Yes,Yes,No
+621030645265863,Nominal Inside Diameter Variant,Nominal Inside Diameter,Yes,Yes,No
+621030645265864,Magnification Strength Variant,Magnification Strength,Yes,Yes,No
+621030645265865,Range Variant,Range,Yes,Yes,No
+621030645265866,Fastener Size Variant,Fastener Size,Yes,Yes,No
+621030645265867,Connector Type Variant,Connector Type,Yes,Yes,No
+621030645265868,Insert Size Variant,Insert Size,Yes,Yes,No
+621030645265869,Pitch Diameter String Variant,Pitch Diameter String,Yes,Yes,No
+621030645265870,Primary Stone Gem Type Variant,Primary Stone Gem Type,Yes,Yes,No
+621030645265871,Washer Size Variant,Washer Size,Yes,Yes,No
+621030645265872,Model Number Variant,Model Number,Yes,Yes,No
+621030645265873,Metal Stamp Variant,Metal Stamp,Yes,Yes,No
+621030645265874,Inside Diameter Variant,Inside Diameter,Yes,Yes,No
+621030645265875,Load Capacity Variant,Load Capacity,Yes,Yes,No
+621030645265876,Item Display Weight Variant,Item Display Weight,Yes,Yes,No
+621030645265877,Gauge Variant,Gauge,Yes,Yes,No
+621030645265878,Service plan term Variant,Service plan term,Yes,Yes,No
+621030645265879,Lens Width Variant,Lens Width,Yes,Yes,No
+621030645265880,System of Measurement Variant,System Of Measurement,Yes,Yes,No
+621030645265881,Grip Size Variant,Grip Size,Yes,Yes,No
+621030645265882,Item Display Length Variant,Item Display Length,Yes,Yes,No
+621030645265883,Item Diameter Variant,Item Diameter,Yes,Yes,No
+621030645265884,Tension Supported Variant,Tension Supported,Yes,Yes,No
+621030645265885,Cap Type Variant,Cap Type,Yes,Yes,No
+621030645265886,Model Variant,Model,Yes,Yes,No
+621030645265887,Size per Pearl Variant,Size per Pearl,Yes,Yes,No
+621030645265888,Total Diamond Weight Variant,Total Diamond Weight,Yes,Yes,No
+621030645265889,Gem Type Variant,Gem Type,Yes,Yes,No
+621030645265890,Overall Width Variant,Overall Width,Yes,Yes,No
+621030645265891,Edition Variant,Edition,Yes,Yes,No
+621030645265892,Cushion Style Variant,Cushion Style,Yes,Yes,No
+621030645265893,Nominal Outside Diameter Variant,Nominal Outside Diameter,Yes,Yes,No
+621030645265894,For Pipe Size Variant,For Pipe Size,Yes,Yes,No
+621030645265895,Additional Features Variant,Additional Features,Yes,Yes,No
+621030645265896,Band Size Variant,Band Size,Yes,Yes,No
+621030645265897,Special Size Type Variant,Special Size Type,Yes,Yes,No
+621030645265898,Display Height Variant,Display Height,Yes,Yes,No
+621030645265899,Headband Color Variant,Headband Color,Yes,Yes,No
+621030645265900,Head Diameter Variant,Head Diameter,Yes,Yes,No
+621030645265901,Graduation Interval Variant,Graduation Interval,Yes,Yes,No
+621030645265902,Wattage Variant,Wattage,Yes,Yes,No
+621030645265903,Cutting width Variant,Cutting width,Yes,Yes,No
+621030645265904,Bare Outside Diameter String Variant,Bare Outside Diameter String,Yes,Yes,No
+621030645265905,Fits Hole Size Variant,Fits Hole Size,Yes,Yes,No
+621030645265906,Temperature Rating Variant,Temperature Rating,Yes,Yes,No
+621030645265907,Grip Type Variant,Grip Type,Yes,Yes,No
+621030645265908,Compatible Fastener Description Variant,Compatible Fastener Description,Yes,Yes,No
+621030645265909,Pipe Size Variant,Pipe Size,Yes,Yes,No
+621030645265910,Pattern Variant,Pattern,Yes,Yes,No
+621030645265911,Overall Height Variant,Overall Height,Yes,Yes,No
+621030645265912,Line Weight Variant,Line Weight,Yes,Yes,No
+621030645265913,Measuring Range Variant,Measuring Range,Yes,Yes,No
+621030645265914,Lead Type Variant,Lead Type,Yes,Yes,No
+621030645265915,Diameter Variant,Diameter,Yes,Yes,No
+621030645265916,Electrical Connector Type Variant,Electrical Connector Type,Yes,Yes,No
+621030645265917,Flex Variant,Flex,Yes,Yes,No
+621030645265918,Input Range Description Variant,Input Range Description,Yes,Yes,No
+621030645265919,Line Size Variant,Line Size,Yes,Yes,No
+621030645265920,For Shaft Diameter Variant,For Shaft Diameter,Yes,Yes,No
+621030645265921,Trade Size Variant,Trade Size,Yes,Yes,No
+621030645265922,Mounting Distance String Variant,Mounting Distance String,Yes,Yes,No
+621030645265923,Processor Description Variant,Processor Description,Yes,Yes,No
+621030645265924,Hardware Platform Variant,Hardware Platform,Yes,Yes,No
+621030645265925,Edge Style Variant,Edge Style,Yes,Yes,No
+621030645265926,Resolution Variant,Resolution,Yes,Yes,No
+621030645265927,Vehicle Speaker Size Variant,Vehicle Speaker Size,Yes,Yes,No
+621030645265928,Number Of Shelves Variant,Number Of Shelves,Yes,Yes,No
+621030645265929,Paper Size Variant,Paper Size,Yes,Yes,No
+621030645265930,Leg Style Variant,Leg Style,Yes,Yes,No
+621030645265931,Connectivity Variant,Connectivity,Yes,Yes,No
+621030645265932,Maximum Size Variant,Maximum Size,Yes,Yes,No
+621030645265933,Generation Variant,Generation,Yes,Yes,No
+621030645265934,Disk Size Variant,Disk Size,Yes,Yes,No
+621030645265935,Denomination Variant,Denomination,Yes,Yes,No
+621030645265936,Loft Variant,Loft,Yes,Yes,No
+621030645265937,Shaft Material Variant,Shaft Material,Yes,Yes,No
+621030645265938,Grit Type Variant,Grit Type,Yes,Yes,No
+621030645265939,Wire Diameter Variant,Wire Diameter,Yes,Yes,No
+621030645265940,Roll Diameter String Variant,Roll Diameter String,Yes,Yes,No
+621030645265941,Current Type Variant,Current Type,Yes,Yes,No
+621030645265942,Closed Length String Variant,Closed Length String,Yes,Yes,No
+621030645265943,Extended Length Variant,Extended Length,Yes,Yes,No
+621030645265944,Platform for Display Variant,Platform for Display,Yes,Yes,No
+621967041462827,Pen Point Size,Point Size,No,Yes,No
+626202775983833,Microsoft Surface Types,Surface Pro 4 Type,No,Yes,No
+627067127731371,Frequency Band_wireless_display,Frequency Bands,No,No,No
+633142842307040,Golf_Club_Loft,Loft,Yes,No,No
+633143229271087,Golf_Club_Length,Club Length,Yes,No,No
+633143623893592,Club_Set_Composition,Set Composition,Yes,No,No
+633144054353626,Club_Shaft_Flex,Shaft Flex,Yes,Yes,No
+633144629052155,Club_Shaft_Manufacturer,Shaft Manufacturer,Yes,No,No
+633144921246881,Club_Shaft_Material,Shaft Material,Yes,No,No
+634682758013606,Golf_Shaft_Model,Shaft Model,Yes,No,No
+640933468449356,Daily Ice Production - Appliances (Display),Daily Ice Production,Yes,No,No
+640938256063651,Ice Storage Capacity - Appliance (Display),Ice Storage Capacity,Yes,No,No
+640962340171836,Thanksgiving 2016 Turkey Sizes,Weight,Yes,Yes,No
+646838450445146,Accessories Product Type,Product Type,No,No,Yes
+658063222323132,Drills_Drill Type_Facet Filter,Drill Type,No,No,No
+658063530370312,Drills_Chuck Size_Facet Filter,Chuck Size,No,No,Yes
+658063720931275,Drills_Voltage_Facet Filter,Voltage,Yes,No,No
+658072945832771,Drills_Voltage_Display,Voltage,Yes,No,No
+658073446147991,Drills_Amperage_Display,Amperage,Yes,No,No
+658073761070495,Drills_Amp Hours_Display,Amp Hours,Yes,No,No
+658074243779203,Drills_Product Depth (In.)_Display,Product Depth (In.),Yes,No,No
+658075126250443,Drills_Product Height (In.)_Display,Product Height (In.),Yes,No,No
+658075252618682,Drills_Product Width (In.)_Display,Product Width (In.),Yes,No,No
+658075394289196,Drills_Product Weight (lbs.)_Display,Product Weight (lbs.),Yes,No,No
+675309577040336,Processor Display_Model,Model,Yes,No,No
+675340375982220,Processor Display_Series,Series,Yes,No,No
+675340883371946,Processor Display_Socket Type,Socket Type,Yes,No,No
+675341975475782,Processor Display_Number of Cores,Number Of Cores,Yes,No,No
+675342866136608,Processor Display_Processor Speed,Processor Speed,Yes,No,No
+675343174941246,Processor Display_L2 Cache,L2 Cache,Yes,No,No
+675343174941805,Processor Display_L2 Cache_old,L2 Cach_old,Yes,No,No
+675343465024748,Processor Display_L3 Cache,L3 Cache,Yes,No,No
+675343946785984,Processor Display_Manufacturing Tech,Manufacturing Tech,Yes,No,No
+675344202571858,Processor Display_64-Bit Support,64-Bit Support,Yes,No,No
+675344582727892,Processor Display_Hyper-Threading Support,Hyper-Threading Support,Yes,No,No
+675345271202678,Processor Display_Number of Threads,Number Of Threads,Yes,No,No
+675345643837782,Processor Display_Virtualization Technology Support,Virtualization Technology Support,Yes,No,No
+675346017841059,Processor Display_Thermal Design Power,Thermal Design Power,Yes,No,No
+676361784385006,Small Appliances_Steamers_Capacity_Display,Capacity,Yes,No,No
+676362561853230,Small Appliances_Steamers_Capacity_Facet Filter,Capacity,No,No,Yes
+682441733135477,Small Appliances_Steamers_Control Type_Facet Filter,Control Type,No,No,Yes
+683325520405673,Small Appliances_Steamers_Control Type_Display,Control Type,No,No,No
+683335288048422,Small Appliances_Cake Pops_Product Features_Facet,Product Features,No,No,Yes
+683346982044995,Small Appliances_Hot Pots_Material_Facet,Material,No,No,Yes
+683347682784421,Small Appliances_Hot Pots_Material_Display,Material,No,No,No
+683353277179589,Small Appliances_Hot Pots_Product Features_Facet,Product Features,No,No,Yes
+683357884751301,Small Appliances_Ironing Boards & Covers_Material_Facet,Material,No,No,Yes
+683358720477464,Small Appliances_Ironing Boards & Covers_Material_Display,Material,Yes,No,No
+683362684524880,Small Appliances_Ironing Boards & Covers_Type_Facet,Type,No,No,Yes
+683363351561440,Small Appliances_Ironing Boards & Covers_Type_Display,Type,No,No,No
+684658598771033,Screen Size,Size,No,No,No
+694354116391650,LBS Product Type_Facet,Product Type,No,No,Yes
+695431075902501,Small Appliances_Specialty_Category_Facet,Category,No,No,Yes
+695431076007027,Small Appliances_Specialty_Category_Display,Category,Yes,No,No
+695431076086264,Small Appliances_Specialty_Product Features_Facet,Product Features,No,No,Yes
+695431076160163,Small Appliances_Water Filtration_Type_Facet,Type ,No,No,Yes
+695431076236195,Small Appliances_Water Filtration_Type_Display,Type ,Yes,No,No
+695431076311431,Small Appliances_Water Filtration_Capacity_Display,Capacity,Yes,No,No
+697180926683626,Video Genre Clean FF,Genre,No,Yes,Yes
+699500181339213,HH JD - Scent,Scent,No,No,Yes
+703950049763238,Hayneedle_Season,Season,Yes,No,No
+704700105423092,Phone Compatibility_Cell Phones & Accessories_Display,Phone Compatibility,No,No,No
+704700105503300,Case Type_Cell Phones & Accessories_Display,Case Type,No,No,No
+704700105586080,Features_Cell Phones & Accessories_Display,Features,No,No,No
+704700105673675,Material_Cell Phones & Accessories_Display,Material,No,No,No
+704710871866916,LBS Pbeauty Trends_Facet,Beauty Trend,No,No,Yes
+704719414697185,LBS Beauty Trends_Facet,Beauty Trends,No,No,Yes
+706437044096081,Video Color,Color,Yes,No,No
+707325653731915,Household Batteries_Battery Size_Display,Battery Size,No,No,No
+707325653825839,Household Batteries_Battery Type_Display,Battery Type,No,No,No
+707325653982621,Household Batteries_Rechargeable_Display,Rechargeable,No,No,No
+707325654139903,Household Batteries_pack Size_Display_variant,Pack Size,Yes,Yes,No
+711018167403951,Video Theatrical Release Year,Theatrical Release Year,Yes,No,No
+716089387984552,Use_Printers_Display,Use,No,No,No
+716089388221741,Printer Type_Printers_Display,Printer Type,Yes,No,No
+716089388429211,Printer Function_Printers_Display,Printer Function,Yes,No,No
+716089388858986,Printer Features_Printers_Display,Printer Features,Yes,No,No
+716089389124656,Weight_Printers_Display,Weight,Yes,No,No
+716089389345986,Max Media Size_Printers_Display,Max Media Size,Yes,No,No
+716089389550380,Print Speed_Printers_Display,Print Speed,Yes,No,No
+716089389809049,Max Resolution (B&W)_Printers_Display,Max Resolution (B&W),Yes,No,No
+716089390032416,RAM Installed (Max)_Printers_Display,RAM Installed (Max),Yes,No,No
+716089390474361,Media Type_Printers_Display,Media Type,Yes,No,No
+716089390729247,Total Media Capacity_Printers_Display,Total Media Capacity,Yes,No,No
+716089390965509,Monthly Duty Cycle (max)_Printers_Display,Monthly Duty Cycle (max),Yes,No,No
+716089391214795,Power_Printers_Display,Power,Yes,No,No
+716089391445880,Dimensions (WxDxH)_Printers_Display,Dimensions (WxDxH),Yes,No,No
+716089391667943,System Requirements_Printers_Display,System Requirements,Yes,No,No
+716089391898867,Manufacturer Warranty_Printers_Display,Manufacturer Warranty,Yes,No,No
+716089392272088,Media Handling_Printers_Display,Media Handling,Yes,No,No
+716089392528258,Printer Features_Printers_Display,Printer Features,Yes,No,No
+716089392787005,Battery_Printers_Display,Battery,Yes,No,No
+716089393151895,Automatic Duplexing_Printers_Display,Automatic Duplexing,Yes,No,No
+716089393415719,Processor_Printers_Display,Processor,Yes,No,No
+716089393673769,Hard Drive_Printers_Display,Hard Drive,Yes,No,No
+716089393898891,Device Type_Printers_Display,Device Type,Yes,No,No
+716089394138794,Fax Type_Printers_Display,Fax Type,Yes,No,No
+716089394360101,Printing Technology_Printers_Display,Printing Technology,Yes,No,No
+716089394575288,Max Copying Speed_Printers_Display,Max Copying Speed,Yes,No,No
+716089394902813,Max Printing Speed_Printers_Display,Max Printing Speed,Yes,No,No
+716089395134431,Max Printing Resolution_Printers_Display,Max Printing Resolution,Yes,No,No
+716089395365182,Scanning_Printers_Display,Scanning,Yes,No,No
+716089395594145,Original Size_Printers_Display,Original Size,Yes,No,No
+716089395908196,Original Type_Printers_Display,Original Type,Yes,No,No
+716089396199202,Document Feeder Capacity_Printers_Display,Document Feeder Capacity,Yes,No,No
+716089396425749,Media Size_Printers_Display,Media Size,Yes,No,No
+716089396670247,Standard Media Capacity_Printers_Display,Standard Media Capacity,Yes,No,No
+716089397016295,Output Trays Capacity_Printers_Display,Output Trays Capacity,Yes,No,No
+716089397236908,PC Connection Availability_Printers_Display,PC Connection Availability,Yes,No,No
+716089397495161,PC Connection_Printers_Display,PC Connection,Yes,No,No
+716089397782054,Max Copying Resolution_Printers_Display,Max Copying Resolution,Yes,No,No
+716089398044728,Max Media Capacity_Printers_Display,Max Media Capacity,Yes,No,No
+716089398287412,Bypass Feeder Capacity_Printers_Display,Bypass Feeder Capacity,Yes,No,No
+716089398708277,AirPrint Enabled_Printers_Display,AirPrint Enabled,Yes,No,No
+717028369154537,Exercise Type_FF_Sports,Exercise Type,No,No,Yes
+717820441669003,LBS Bestsellers_Facet,Best Sellers,No,No,Yes
+720112585418994,Wireless Speed Standard,Wireless Speed Standard,No,No,Yes
+729941609026138,Smart Home Compatibility,Works With,No,No,Yes
+734374037007134,Smart Home Protocols,Protocols,No,No,Yes
+741149838349370,Screen Size,Size,No,No,No
+749029846868087,Screen Size,Size,No,No,No
+753102845309393,Wrenches_Sockets_Width_Display,Product Width (in.),Yes,No,No
+753102847333796,Wrenches_Sockets_Pieces_Display,Number Of Pieces,Yes,No,No
+761590465845729,Party Supplies,Recipient,Yes,No,Yes
+764445184558547,Video Genre 2,Subgenre,Yes,No,Yes
+765347067483072,Facet filters for Namber brand landing page used to power the FSBI,Function,No,No,Yes
+765349811171752,Facet filters for Namber brand landing page used to power the FSBI,Function,No,No,Yes
+766028730614334,Presentation Board Types,Board Types,No,No,Yes
+767061603590640,Shop by room,Room,No,No,Yes
+779809951259954,Product Type Outdoor Event,Product Type,No,No,Yes
+783043926381901,Hayneedle_Organic,Organic,Yes,No,No
+785179470914813,Cuisinart brand page applianceFunction,Appliance Function,No,No,Yes
+789662069724106,Bai Shop By,Featured Products,No,No,Yes
+807639650532658,Hayneedle_Longevity,Longevity,Yes,No,No
+829336671251706,Gift Card Category,Type,No,No,Yes
+846540173741522,Video Studio,Studio,Yes,No,No
+891873084158450,Video Animated,Animated,Yes,No,No
+904469449643515,Party Supplies,Count/Pack Size,Yes,No,Yes
+913799636324611,Video Release Date,Release Date,Yes,No,No
+935325961427712,Video Cast,Cast,Yes,No,No
+941092490588965,Video Director,Director,Yes,No,No
+949152156110997,Video Features,Features,Yes,No,No
+956839266076773,Hayneedle_NPK,N-P-K Ratio,Yes,No,No
+967959711500699,Video Runtime,Runtime,Yes,No,No
+981572015258313,Party Supplies,Size,Yes,No,Yes
